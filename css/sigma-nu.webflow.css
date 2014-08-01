@@ -1,0 +1,333 @@
+body {
+  background-image: -webkit-linear-gradient(bottom, gold, black 20%);
+  background-image: -o-linear-gradient(bottom, gold, black 20%);
+  background-image: linear-gradient(to top, gold, black 20%);
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-right: 7px;
+  padding-left: 7px;
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: rgba(255, 255, 255, 0.22) 0px 1px 0px;
+}
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 5px;
+}
+.button {
+  display: inline-block;
+  padding: 4px 15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.header {
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  display: block;
+  min-height: 0px;
+  min-width: 500px;
+  margin-right: 1px;
+  padding-right: 4px;
+  clear: none;
+  background-color: black;
+  text-align: center;
+  text-decoration: none;
+}
+.headerbutton {
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: gold;
+  background-image: none;
+  background-position: 0% 0%;
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  opacity: 1;
+}
+.headerbutton.w--current {
+  background-color: #fffcf5;
+  opacity: 1;
+  font-weight: 700;
+}
+.housepic {
+  max-width: 640px;
+  min-height: 480px;
+  min-width: 640px;
+  padding-left: 0px;
+  float: none;
+  opacity: 0.73;
+}
+.tab-pane-about-us {
+  margin-bottom: 1px;
+  padding-bottom: 2px;
+  background-image: url('../images/DSC00328.JPG');
+  background-position: 49% 50%;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+.aboutus {
+  display: inline-block;
+  height: 1000px;
+  margin-bottom: 1px;
+  padding-bottom: 4px;
+}
+.homeslider {
+  left: 0px;
+  top: 0px;
+  display: block;
+  width: 640px;
+  height: 540px;
+  max-height: 100%;
+  max-width: 100%;
+  min-height: 540px;
+  min-width: 640px;
+  margin: 17px auto 11px;
+  padding-top: 0px;
+  padding-bottom: 11px;
+  float: none;
+  clear: none;
+}
+.compositephoto {
+  display: inline-block;
+  min-height: 512px;
+  min-width: 640px;
+  margin-bottom: -4px;
+  margin-left: 1px;
+  padding-bottom: 0px;
+  float: none;
+}
+.more-info {
+  min-height: 300px;
+  min-width: 300px;
+  margin-right: 1000px;
+}
+.classselector {
+  margin-top: 16px;
+  margin-right: -2px;
+  margin-left: auto;
+  text-align: center;
+}
+.individualphoto {
+  margin-left: 1px;
+  float: left;
+  clear: none;
+  text-align: center;
+}
+.classslider {
+  position: relative;
+  top: 1px;
+  right: 0px;
+  bottom: 1px;
+  display: block;
+  height: 376px;
+  max-height: 376px;
+  max-width: 207px;
+  min-height: 376px;
+  min-width: 207px;
+  margin: 19px auto 13px;
+  padding: 2px 0px 0px;
+  clear: none;
+  text-align: center;
+}
+.compositename {
+  max-height: 68px;
+  min-height: 68px;
+  min-width: 81px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  border: 0px solid black;
+  background-color: white;
+  background-image: -webkit-linear-gradient(275deg, black 100%, white);
+  background-image: -o-linear-gradient(185deg, black 100%, white);
+  background-image: linear-gradient(185deg, black 100%, white);
+  box-shadow: none;
+  opacity: 0.76;
+  direction: ltr;
+  color: white;
+  font-size: 23px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-indent: 0px;
+  text-transform: none;
+}
+.sophmorenav {
+  margin-bottom: 15px;
+}
+.banner {
+  position: static;
+  display: block;
+  max-height: 10%;
+  min-height: 10%;
+  min-width: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  float: none;
+  text-align: center;
+}
+.menubutton {
+  margin-left: 8px;
+  padding-top: 0px;
+  padding-right: 14px;
+  padding-left: 13px;
+  border-radius: 11px;
+  background-color: gold;
+  color: black;
+  font-size: 22px;
+  text-decoration: none;
+}
+.menubutton:hover {
+  border: 1px solid black;
+  border-radius: 11px;
+  background-color: white;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 31px;
+  text-align: left;
+}
+.menubutton.selected {
+  background-color: white;
+}
+.menubutton.selected.w--current {
+  margin-right: 0px;
+  margin-bottom: 1px;
+  margin-left: 8px;
+  padding-right: 13px;
+}
+.buttonmenu {
+  display: block;
+  max-width: 100%;
+  min-width: 30%;
+  margin-top: 9px;
+  margin-right: 19%;
+  margin-left: 24%;
+  padding-right: 1px;
+  padding-left: 0px;
+  font-size: 17px;
+  text-align: left;
+}
+.classes {
+  position: static;
+  left: 600px;
+  display: block;
+  max-width: 47%;
+  min-width: 47%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 115px;
+}
+.facebook {
+  display: inline-block;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #a813a3;
+}
+.google {
+  display: inline-block;
+}
+.webmaster {
+  color: white;
+  font-size: 20px;
+}
+.messageus {
+  color: white;
+}
+.classdiv {
+  display: inline-block;
+  margin-right: auto;
+  margin-left: 576px;
+}
+.likeus {
+  color: white;
+}
+.classtab {
+  display: block;
+  min-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (max-width: 991px) {
+  .headerbutton.w--current {
+    margin-left: 0px;
+  }
+  .tab-pane-about-us {
+    background-image: none;
+    background-position: 0% 0%;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+  }
+  .menubutton {
+    margin-left: 16px;
+    padding: 9px 8px 3px 2px;
+    border: 0px solid black;
+    border-radius: 4px;
+    background-color: gold;
+    font-size: 17px;
+    text-align: left;
+  }
+  .menubutton.w--current {
+    margin-left: auto;
+    padding: 4px 14px 11px 11px;
+    font-size: 18px;
+  }
+  .text {
+    display: inline-block;
+    font-size: 16px;
+    font-style: normal;
+    text-decoration: none;
+  }
+  .buttonmenu {
+    margin-top: 20px;
+    margin-left: 95px;
+    padding-top: 3px;
+  }
+}
