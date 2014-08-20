@@ -10,30 +10,18 @@
 
 <body background="./images/background.jpg">
 
-    <script>
-    window.fbAsyncInit = function() {
-        FB.init({
-            appId: '259418870917517',
-            xfbml: true,
-            version: 'v2.0'
-        });
-    };
-
-
-    function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s);
-        js.id = id;
-        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=259418870917517&version=v2.0";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk');
-    </script>
-    <div id="fb-root"></div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=259418870917517&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
     <!--     <img id="topBanner" src="./images/banner.png" class="img-rounded"></img> -->
     <div>
-        <div id="fb-box" class="fb-like-box" data-href="https://www.facebook.com/SigmaNuBetaUpsilon" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
+      <div id ="fb-box"class="fb-like-box" data-href="https://www.facebook.com/SigmaNuBetaUpsilon" data-height="800" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="true" data-show-border="false"></div>
         <!-- Nav tabs -->
         <ul class="nav nav-tabs" id="navBar" role="tablist">
             <li class=" active"><a href="#home" role="tab" data-toggle="tab">&nbsp&nbspHome&nbsp&nbsp</a>
