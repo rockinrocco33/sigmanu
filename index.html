@@ -1,372 +1,175 @@
-<!DOCTYPE html>
-<!-- This site was created in Webflow. http://www.webflow.com-->
-<!-- Last Published: Tue Jun 24 2014 04:17:17 GMT+0000 (UTC) -->
-<html data-wf-site="539221d5ad5ac75323ebaea6">
+<html>
+<!--Written by Matt Rocco. Shout out to twitter bootstrap for making the css easier -->
+<!--Hey, if you are here, and you are a brother, you should think about taking over tech chair once my epic run is complete. -->
+
+
+
 <head>
-  <meta charset="utf-8">
-  <title>Sigma Nu - newHome</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="generator" content="Webflow">
-  <link rel="stylesheet" type="text/css" href="css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="css/webflow.css">
-  <link rel="stylesheet" type="text/css" href="css/sigma-nu.webflow.css">
-  <script type="text/javascript" src="js/modernizr.js"></script>
-  <link rel="shortcut icon" type="image/x-icon" href="https://daks2k3a4ib2z.cloudfront.net/placeholder/favicon.ico">
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 </head>
-<body>
-  <div>
-    <img class="banner" src="images/sigmanubanner.png" alt="539532adb8902f532c5f75ad_sigmanubanner.png">
-  </div>
-  <div>
-    <div class="w-tabs" data-duration-in="300" data-duration-out="100">
-      <div class="w-tab-menu header">
-        <a class="w-tab-link w--current w-inline-block headerbutton" data-w-tab="home">
-          <div>Home</div>
-        </a>
-        <a class="w-tab-link w-inline-block headerbutton" data-w-tab="Rush Sigma Nu">
-          <div>Rush Sigma Nu</div>
-        </a>
-        <a class="w-tab-link w-inline-block headerbutton" data-w-tab="brothers">
-          <div>Brothers</div>
-        </a>
-        <a class="w-tab-link w-inline-block headerbutton" data-w-tab="aboutUs">
-          <div>About Us</div>
-        </a>
-        <a class="w-tab-link w-inline-block headerbutton" data-w-tab="Tab 4">
-          <div>Alumni</div>
-        </a>
-        <a class="w-tab-link w-inline-block headerbutton" data-w-tab="contactUs">
-          <div>Contact Us</div>
-        </a>
-      </div>
-      <div class="w-tab-content">
-        <div class="w-tab-pane" data-w-tab="home">
-          <div>
-            <div class="w-slider homeslider" data-animation="slide" data-duration="900" data-infinite="1">
-              <div class="w-slider-mask">
-                <div class="w-slide">
-                  <img class="housepic" src="images/houseSmall.jpg" alt="53951f5937206ded4c8be289_houseSmall.jpg">
-                </div>
-                <div class="w-slide">
-                  <h1>Rush calender here</h1>
-                </div>
-                <div class="w-slide">
-                  <img class="compositephoto" src="images/compositeSmall.jpg" alt="53951f87f45a59ec4c654f91_compositeSmall.jpg">
-                </div>
-              </div>
-              <div class="w-slider-arrow-left">
-                <div class="w-icon-slider-left"></div>
-              </div>
-              <div class="w-slider-arrow-right">
-                <div class="w-icon-slider-right"></div>
-              </div>
-              <div class="w-slider-nav w-slider-nav-invert w-round"></div>
-            </div>
-          </div>
-        </div>
-        <div class="w-tab-pane" data-w-tab="Rush Sigma Nu">
-          <div>
-            <div color = "white"> Rush calender, the section from the rush booklet Will go here.&nbsp;
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>Want more information? Fill out your name and email.</div>
-            <div class="w-form more-info">
-              <form id="email-form" name="email-form" data-name="Email Form">
-                <label for="name">Name:</label>
-                <input class="w-input" id="name" type="text" placeholder="Enter your name" name="name" data-name="Name" required="required">
-                <label for="email">Email Address:</label>
-                <input class="w-input" id="email" type="email" placeholder="Enter your email address" name="email" data-name="Email" required="required">
-                <input class="w-button" type="submit" value="Submit" data-wait="Please wait...">
-              </form>
-              <div class="w-form-done">
-                <p>Thank you! Your submission has been received!</p>
-              </div>
-              <div class="w-form-fail">
-                <p>Oops! Something went wrong while submitting the form :(</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="w-tab-pane brotherstab" data-w-tab="brothers">
-          <div>
-            <div>
-              <div class="w-tabs classselector" data-duration-in="300" data-duration-out="100">
-                <div class="w-tab-content">
-                  <div class="w-tab-pane w--tab-active" data-w-tab="Sophmores">
-                    <div class="w-slider classslider" data-animation="slide" data-duration="200" data-easing="linear">
-                      <div class="w-slider-mask">
-                        <div class="w-slide">
-                          <img src="images/MARC%20AUGUSTINE.jpg" alt="5395246538947f542cc4a3c6_MARC%20AUGUSTINE.jpg">
-                          <div class="compositename">Marc Augustine</div>
+
+<body background="./images/background.jpg">
+      <div id="fb-root"></div>
+
+	    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '259418870917517',
+          xfbml      : true,
+          version    : 'v2.0'
+        });
+      };
+
+   
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=259418870917517&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+    </script>
+    <div id="fb-root"></div>
+
+<!--     <img id="topBanner" src="./images/banner.png" class="img-rounded"></img> -->
+    <div background="./images/buttonBackground.png">
+
+    	<img id="logo" src="./images/badge.png"
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" id="navBar" role="tablist">
+            <li class=" active"><a href="#home" role="tab" data-toggle="tab">Home</a>
+            </li>
+            <li class=""><a href="#rushSigmaNu" role="tab" data-toggle="tab">Rush Sigma Nu</a>
+            </li>
+            <li class=""><a href="#brothers" role="tab" data-toggle="tab">Brothers</a>
+            </li>
+            <li class=""><a href="#aboutUs" role="tab" data-toggle="tab">About Us </a>
+            </li>
+            <li class=""><a href="#alumni" role="tab" data-toggle="tab">Alumni</a>
+            </li>
+            <li class=""><a href="#contactUs" role="tab" data-toggle="tab">Contact Us</a>
+            </li>
+            <h3 id="navSigNu"> Sigma Nu at Rose-Hulman </h3>
+        </ul>
+    </div>
+
+    <div class="tab-content" style="color:red">
+        <div class="tab-pane fade in active" id="home">
+      
+
+      <div class="container">
+    <div class="row">
+        <div class="col-xs-6">
+       <div id="homePageCarousel" class="carousel slide inverted" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#homePageCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#homePageCarousel" data-slide-to="1"></li>
+                    <li data-target="#homePageCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+
+                        <img src="images/houseSmall.jpg" class="img-responsive">
+                        <div class="carousel-caption">
+                        <h3> The House </h3>
+                            Come by and ask for a tour
                         </div>
-                        <div class="w-slide">
-                          <img src="images/ALEXANDER%20CROWLEY.jpg" alt="5395293038947f542cc4a433_ALEXANDER%20CROWLEY.jpg">
-                          <div class="compositename"><strong>Alexander Crowley</strong>
-                          </div>
-                        </div>
-                        <div class="w-slide">
-                          <img src="images/PAUL%20DUNAWAY.jpg" alt="5395299437206ded4c8be2e5_PAUL%20DUNAWAY.jpg">
-                          <div class="compositename"><strong>Paul Dunnaway</strong>
-                          </div>
-                        </div>
-                        <div class="w-slide">
-                          <img src="images/JOSEPH%20KENDALL.jpg" alt="539529d437206ded4c8be2e8_JOSEPH%20KENDALL.jpg">
-                          <div class="compositename">Joseph Kendall</div>
-                        </div>
-                        <div class="w-slide">
-                          <img src="images/DANIEL%20KLINE.jpg" alt="53952cc037206ded4c8be324_DANIEL%20KLINE.jpg">
-                          <div class="compositename">Daniel Kline</div>
-                        </div>
-                        <div class="w-slide">
-                          <img src="images/ANDREW%20MINER.jpg" alt="53952e7838947f542cc4a47f_ANDREW%20MINER.jpg">
-                          <div class="compositename">Andrew Miner</div>
-                        </div>
-                        <div class="w-slide">
-                          <img src="images/ROBERT%20VARGO.jpg" alt="53952ea937206ded4c8be361_ROBERT%20VARGO.jpg">
-                          <div class="compositename">Robert Vargo</div>
-                        </div>
-                      </div>
-                      <div class="w-slider-arrow-left">
-                        <div class="w-icon-slider-left"></div>
-                      </div>
-                      <div class="w-slider-arrow-right">
-                        <div class="w-icon-slider-right"></div>
-                      </div>
-                      <div class="w-slider-nav w-round"></div>
                     </div>
-                  </div>
-                  <div class="w-tab-pane" data-w-tab="Juniors">
-                    <div>
-                      <div class="w-slider classslider" data-animation="slide" data-duration="500" data-infinite="1">
-                        <div class="w-slider-mask">
-                          <div class="w-slide">
-                            <img src="images/DOUGLAS%20BICKEL.jpg" alt="539530da37206ded4c8be3b4_DOUGLAS%20BICKEL.jpg">
-                            <div class="compositename">Douglas Bickle</div>
-                          </div>
-                          <div class="w-slide">
-                            <img src="images/PAUL%20BLIUDZUIS.jpg" alt="5395313bf45a59ec4c65504e_PAUL%20BLIUDZUIS.jpg">
-                            <div class="compositename">Paul BlueJizz</div>
-                          </div>
-                          <div class="w-slide">
-                            <img src="images/JOHN%20COCHRAN.jpg" alt="53953172f45a59ec4c655050_JOHN%20COCHRAN.jpg">
-                            <div class="compositename">John Michael Cochran</div>
-                          </div>
-                          <div class="w-slide">
-                            <img src="images/THOMAS%20DEMOS.jpg" alt="539531b6f45a59ec4c655052_THOMAS%20DEMOS.jpg">
-                            <div class="compositename">Thomas Demos</div>
-                          </div>
-                          <div class="w-slide">
-                            <img src="images/CHAZ%20EVANS.jpg" alt="539531eff45a59ec4c655055_CHAZ%20EVANS.jpg">
-                            <div class="compositename">Chaz Evans</div>
-                          </div>
-                          <div class="w-slide">
-                            <img src="images/PATRICK%20FONDA.jpg" alt="5395322a38947f542cc4a4b0_PATRICK%20FONDA.jpg">
-                            <div class="compositename">Patrick Fonda</div>
-                          </div>
-                          <div class="w-slide">
-                            <img src="images/TAYLOR%20FORTMEYER.jpg" alt="539532f0b8902f532c5f75ae_TAYLOR%20FORTMEYER.jpg">
-                            <div class="compositename">Taylor Fortmeyer&nbsp;</div>
-                          </div>
-                          <div class="w-slide">
-                            <img src="images/LAWRENCE%20GOEDRICH.jpg" alt="5395333b37206ded4c8be3c3_LAWRENCE%20GOEDRICH.jpg">
-                            <div class="compositename">Lawrence Goedrich</div>
-                          </div>
-                          <div class="w-slide">
-                            <img src="images/BRIAN%20GUESS.jpg" alt="5395337737206ded4c8be3c9_BRIAN%20GUESS.jpg">
-                            <div class="compositename">Brian Guess</div>
-                          </div>
-                          <div class="w-slide">
-                            <img src="images/MACKENZIE%20MAYBERRY.jpg" alt="539533b737206ded4c8be3cd_MACKENZIE%20MAYBERRY.jpg">
-                            <div class="compositename">MacKenzie Mayberry</div>
-                          </div>
-                          <div class="w-slide">
-                            <img src="images/JOSEPH%20McENTIRE.jpg" alt="5395342eb8902f532c5f75b5_JOSEPH%20McENTIRE.jpg">
-                            <div class="compositename">Joseph&nbsp;McEntire</div>
-                          </div>
-                          <div class="w-slide">
-                            <img src="images/JOSEPH%20MONHAUT.jpg" alt="5395346938947f542cc4a4c0_JOSEPH%20MONHAUT.jpg">
-                            <div class="compositename">Joseph Monhaut</div>
-                          </div>
-                          <div class="w-slide">
-                            <img src="images/JORDAN%20PATTERSON.jpg" alt="539534aff45a59ec4c655064_JORDAN%20PATTERSON.jpg">
-                            <div class="compositename">Jordan Patterson</div>
-                          </div>
-                          <div class="w-slide">
-                            <img src="images/MATTHEW%20ROCCO.jpg" alt="539534ca38947f542cc4a4c4_MATTHEW%20ROCCO.jpg">
-                            <div class="compositename">Matthew Rocco</div>
-                          </div>
-                          <div class="w-slide">
-                            <img src="images/JOSHUA%20SCALA.jpg" alt="539534f9f45a59ec4c655069_JOSHUA%20SCALA.jpg">
-                            <div class="compositename">Joshua Scala</div>
-                          </div>
-                          <div class="w-slide">
-                            <img src="images/JULIAN%20SFEIR.jpg" alt="5395352737206ded4c8be3f5_JULIAN%20SFEIR.jpg">
-                            <div class="compositename">Julian Sfeir</div>
-                          </div>
-                          <div class="w-slide">
-                            <img src="images/ATUL%20SHASTRY.jpg" alt="5395354837206ded4c8be3f9_ATUL%20SHASTRY.jpg">
-                            <div class="compositename">Atul Shastry</div>
-                          </div>
-                          <div class="w-slide">
-                            <img src="images/D%27KHARI-JAMES%20TURNER-SMITH.jpg" alt="5395358c37206ded4c8be41d_D%27KHARI-JAMES%20TURNER-SMITH.jpg">
-                            <div class="compositename">D'khari-James Turner-Smith</div>
-                          </div>
-                          <div class="w-slide">
-                            <img src="images/NICHOLAS%20WILKOWSKI.jpg" alt="53952f29b8902f532c5f758c_NICHOLAS%20WILKOWSKI.jpg">
-                            <div class="compositename">Nicholas Wilkowski</div>
-                          </div>
+                    <div class="item">
+                        <img src="images/compositeSmall.jpg" class="img-responsive" alt="...">
+                        <div class="carousel-caption">
+                        <h3> The Brothers that make it </h3>
+
                         </div>
-                        <div class="w-slider-arrow-left">
-                          <div class="w-icon-slider-left"></div>
-                        </div>
-                        <div class="w-slider-arrow-right">
-                          <div class="w-icon-slider-right"></div>
-                        </div>
-                        <div class="w-slider-nav w-round sophmorenav"></div>
-                      </div>
                     </div>
-                  </div>
-                  <div class="w-tab-pane" data-w-tab="Seniors">
-                    <div class="w-slider classslider" data-animation="slide" data-duration="500" data-infinite="1">
-                      <div class="w-slider-mask">
-                        <div class="w-slide">
-                          <img src="images/CHARLES%20BAECHLER.jpg" alt="539d00dbee2fdc847847201e_CHARLES%20BAECHLER.jpg">
-                          <div class="compositename">Charles “Cheech” Baechler</div>
+                               <div class="item">
+                        <img src="images/luau.png" class="img-responsive" alt="...">
+
+                        <div class="carousel-caption" style="font-weight:bold; font-size:20px;">
+                            Sorry freshman Rose-Hulman males, Rose-Hulman IFC dictates you guys aren't allowed at our parties until after Rush.
                         </div>
-                        <div class="w-slide">
-                          <img src="images/NICHOLAS%20BUCHTA.jpg" alt="539d044bee2fdc8478472031_NICHOLAS%20BUCHTA.jpg">
-                          <div class="compositename">Nicholas Buchta</div>
-                        </div>
-                        <div class="w-slide">
-                          <img src="images/ETHAN%20CAMPBELL.jpg" alt="539cd1bf0718a7010dd244af_ETHAN%20CAMPBELL.jpg">
-                          <div class="compositename">Ethan Campbell </div>
-                        </div>
-                        <div class="w-slide">
-                          <img src="images/SHAUNE%20CONNER.jpg" alt="539cd33bd5f577000d3ead8e_SHAUNE%20CONNER.jpg">
-                          <div class="compositename">Shaune Conner</div>
-                        </div>
-                        <div class="w-slide">
-                          <img src="images/BROCK%20CRAIG.jpg" alt="539cd39a0718a7010dd244b7_BROCK%20CRAIG.jpg">
-                          <div class="compositename">Brock Craig</div>
-                        </div>
-                        <div class="w-slide">
-                          <img src="images/ABHIMANYU%20GOLCHHA.jpg" alt="539d00710718a7010dd246ee_ABHIMANYU%20GOLCHHA.jpg">
-                          <div class="compositename">Abhimanyu Golchha</div>
-                        </div>
-                        <div class="w-slide">
-                          <img src="images/PAUL%20JANCZAK.jpg" alt="539d01aeee2fdc8478472024_PAUL%20JANCZAK.jpg">
-                          <div class="compositename">Paul Janczak</div>
-                        </div>
-                        <div class="w-slide">
-                          <img src="images/BENJAMIN%20MEADOWS.jpg" alt="539d022ae37e9982780cad3b_BENJAMIN%20MEADOWS.jpg">
-                          <div class="compositename">Benjamin Meadows</div>
-                        </div>
-                        <div class="w-slide">
-                          <img src="images/SETH%20MYERS.jpg" alt="539d0275ee2fdc8478472025_SETH%20MYERS.jpg">
-                          <div class="compositename">Seth Myers</div>
-                        </div>
-                        <div class="w-slide">
-                          <img src="images/BRIAN%20NELSON.jpg" alt="539d02a2ee2fdc8478472028_BRIAN%20NELSON.jpg">
-                          <div class="compositename">Brian Nelson</div>
-                        </div>
-                        <div class="w-slide">
-                          <img src="images/ANDREW%20NELSON.jpg" alt="539d02e7d5f577000d3eaede_ANDREW%20NELSON.jpg">
-                          <div class="compositename">Andrew Nelson</div>
-                        </div>
-                        <div class="w-slide">
-                          <img src="images/ANDREW%20NGUYEN.jpg" alt="539d0359e37e9982780cad40_ANDREW%20NGUYEN.jpg">
-                          <div class="compositename">Andrew Nguyen</div>
-                        </div>
-                        <div class="w-slide">
-                          <img src="images/ERIC%20TAYLOR.jpg" alt="539d03b8d5f577000d3eaee4_ERIC%20TAYLOR.jpg">
-                          <div class="compositename">Eric Taylor</div>
-                        </div>
-                               <div class="w-slide">
-                          <img src="images/JOHN%20TIFT.jpg" alt="539d03b8d5f577000d3eaee4_ERIC%20TAYLOR.jpg">
-                          <div class="compositename">John "Jack" Tift</div>
-                        </div>
-                        <div class="w-slide">
-                          <img src="images/DANIEL%20THUL.jpg" alt="539d03dde37e9982780cad42_DANIEL%20THUL.jpg">
-                          <div class="compositename">Daniel Thul</div>
-                        </div>
-                        <div class="w-slide">
-                          <img src="images/CHRIS%20WAGNER.jpg" alt="539d04060718a7010dd246f9_CHRIS%20WAGNER.jpg">
-                          <div class="compositename">Chris Wagner</div>
-                        </div>
-                        <div class="w-slide">
-                          <img src="images/ZACHARY%20ZDROJEWSKI.jpg" alt="539cd3ccee2fdc8478471f52_ZACHARY%20ZDROJEWSKI.jpg">
-                          <div class="compositename">Zachary Zdrojewski</div>
-                        </div>
-                      </div>
-                      <div class="w-slider-arrow-left">
-                        <div class="w-icon-slider-left"></div>
-                      </div>
-                      <div class="w-slider-arrow-right">
-                        <div class="w-icon-slider-right"></div>
-                      </div>
-                      <div class="w-slider-nav w-round sophmorenav"></div>
                     </div>
-                  </div>
                 </div>
-                <div class="w-tab-menu classtab">
-                  <a class="w-tab-link w--current w-inline-block headerbutton" data-w-tab="Sophmores">
-                    <div>Sophmores</div>
-                  </a>
-                  <a class="w-tab-link w-inline-block headerbutton" data-w-tab="Juniors">
-                    <div>Juniors</div>
-                  </a>
-                  <a class="w-tab-link w-inline-block headerbutton" data-w-tab="Seniors">
-                    <div>Seniors</div>
-                  </a>
-                </div>
-              </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" id= "custom-control" href="#homePageCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" id ="custom-control" href="#homePageCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
             </div>
-          </div>
         </div>
-        <div class="w-tab-pane tab-pane-about-us" data-w-tab="aboutUs">
-          <h1> SIGMA NU NUMBER 1. ALL YOU HATERS CAN GO FUCK YOURSELFS </h1>
-          <br><br><br><br><br><br><br>
-          <h1>I am the walrus. COO COO CHA CHUU </h1>
-          <div style="color: #529B6A">
-          The Beta Upsilon chapter of the Sigma Nu fraternity has been a part of the Rose-Hulman community since 1896 and is the second oldest fraternity at the school. In the chapter’s 112 years of existence, we have groomed nearly 2,000 men to be leaders of the world around us, and we have instilled in them the values necessary to complement a Rose-Hulman education in order to be successful in today’s world.
-The brothers of Sigma Nu are a very close group of men. All members feel the same brotherhood any moment they walk through the doors of the chapter house or simply see a brother on campus. The men of Sigma Nu take pride in the values of honor, truth, and love that the fraternity holds dear and remains steadfast to the beliefs that tie all of the brothers together. The men of Sigma Nu take great confidence in the fact that each chapter across the nation is consistently loyal to these values, maintaining honor, truth, and love in everyday acts. 
-                This tight brotherhood that Sigma Nu grows between members brings the brothers together to participate in events for the good of Rose-Hulman and the Terre Haute community. For any given event, all men of Sigma Nu are ready to lend a helping hand to enhance the surrounding community. It is for this reason that the men of Sigma Nu have taken part in—and held—many campus philanthropy events such as the annual Sigma Nu Volleybash. Sigma Nu is also always willing to provide support of other fraternities and sororities across the area, holding intrafraternal relationships in very high regards. The values taught by the Sigma Nu fraternity advocate a community involvement that the brothers of the Beta Upsilon chapter take to heart and act on accordingly.
-  Sigma Nu strives to achieve a global approach in the understanding of its values. The men of the Beta Upsilon chapter aim to accomplish this goal by taking multiple chapter trips to various locations across the nation, simply to gain a better understanding of what it really means to be a Sigma Nu. In the past two years alone, these men have traveled to Cincinatti, Myrtle Beach, Destin, New Orleans, Nashville, Chicago, and St. Louis, simply to travel the nation and build even greater bonds of friendship and brotherhood. Sigma Nu prides itself on the ability to take men of promise and not only bring out the best in them but to give them the knowledge, values and friendships that will improve their lives in every aspect. 
-  </div>
-          <div class="aboutus"></div>
+        <div class="col-xs-6">
+            
+<div class="fb-like" data-href="https://www.facebook.com/SigmaNuBetaUpsilon" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+        </div>
+                </div>
+
+    </div>
+</div>
+      
+
+
+
+        <div class="tab-pane fade" id="rushSigmaNu">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         </div>
-        <div class="w-tab-pane" data-w-tab="Tab 4"></div>
-        <div class="w-tab-pane w--tab-active" data-w-tab="contactUs">
-          <div>
-  <div>
-    <div>Address:&nbsp;
-      <br>Sigma Nu Rose-Hulman Institute of Technology
-      <br>5500 Wabash Ave
-      <br>IN 47803</div>
-    <div class="w-widget w-widget-gplus google">
-      <div class="g-plusone" data-href="https://plus.google.com/113020587054154332477/about?hl=en&amp;gl=us" data-size="standard" data-annotation="bubble" data-width="120" data-recommendations="false" id="___plusone_20" style="width: 106px; height: 24px; text-indent: 0px; margin: 0px; padding: 0px; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; background: transparent;"></div>
-    </div>
-    <div class="w-widget w-widget-facebook facebook">
-      <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FSigmaNuBetaUpsilon&amp;layout=standard&amp;locale=en_US&amp;action=like&amp;show_faces=false&amp;share=false" scrolling="no" frameborder="0" allowtransparency="true"
-      style="border: none; overflow: hidden; width: 225px; height: 35px;"></iframe>
-    </div>
-                </div>
-              <h3 class="webmaster">Contact the Webmaster 
-                <br>
-                <a href = "http://mattroc.co"> Website </a>
-                <br>Email: roccoma@rose-hulman.edu</h3>
-            </div>
-          </div>
+        <div class="tab-pane fade" id="brothers">3</div>
+        <div class="tab-pane fade" id="aboutUs">4</div>
+        <div class="tab-pane fade" id="alumni">5</div>
+        <div class="tab-pane fade" id="contactUs">
+<div class = "row"> 
+	<div class ="col-mid-6">
+<iframe width="600" height="450" frameborder="0" style="border:0; margin-left:10%" src="https://www.google.com/maps/embed/v1/place?q=Sigma%20Nu%20Fraternity%2C%20Wabash%20Avenue%2C%20Terre%20Haute%2C%20IN%2C%20United%20States&key=AIzaSyDapkQPi1P3xdA6hWw4PTTuC9MX8ffYoWQ"></iframe> 
         </div>
-      </div>
+
     </div>
-  </div>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script type="text/javascript" src="js/webflow.js"></script>
-  <!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+
+
+
+
+
+    <script src="./javascript/jquery-1.11.1.js"></script>
+        <link rel="stylesheet" href="./stylesheets/CSS.css">
+
+    <link rel="stylesheet" href="./stylesheets/bootstrap.3.1.1.min.css">
+    <link rel="stylesheet" href="./stylesheets/rotatingWords.css">
+    <script src="./javascript/index.js">
+    </script>
+    <script src="./javascript/bootstrap.js"></script>
+
 </body>
+
+
 </html>

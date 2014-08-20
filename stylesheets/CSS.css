@@ -1,0 +1,79 @@
+
+
+
+body{
+		height:100%;
+	background-size: 100%;
+	-ms-ie-background-size: 100%;
+  -webkit-background-size: 100%
+
+}
+#navSigNu{
+	color:white;
+	font-style:italic;
+	margin-right:1%;
+	font-family: 'Open Sans', sans-serif;
+	float:right;
+	margin-top:14px;
+
+}
+#custom-control{
+	/*background-image: linear-gradient(to right, transparent 0px, rgba(242, 222, 5, 0.52) 100%);*/
+}
+#navBar{
+font-family: 'Droid Sans', sans-serif;
+	font-weight:bold;
+	font-size:16px;
+	margin-left:10%;
+	margin-top:-5.5%;
+	width:80%;
+	min-width:800px;
+	height:7%;
+	border-width:3px;
+	border-color:rgba(242,222,5,0.52);
+	background-color:#111;
+	padding-bottom:50px;
+	min-width:1020px;
+	background:url("./images/buttonBackground.png") bottom left no-repeat;
+}
+
+#navBar > li {
+margin-left:2px;
+padding-left:3px;
+	padding-top:5px;
+padding-right:3px;
+margin-right:2px;
+border-style:solid;
+border-radius:10px;
+border-left:3px;
+border-right:3px;
+border-top:0px;
+border-bottom:0px;
+}
+#navBar > li > a {
+color:white;
+}
+#navBar > .active > a{
+	background-color:black;
+	color:rgba(242,222,5,0.52);
+
+}
+
+.carousel-inner > .item > img { margin: 0 auto; }
+
+#topBanner{
+	height:10%;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:10px;
+	background-size: 100%;
+	-ms-ie-background-size: 100%;
+  -webkit-background-size: 100%
+}
+#homePageCarousel{
+	width:100%;
+	margin-right:10%;
+	margin-top:1%;
+
+}
