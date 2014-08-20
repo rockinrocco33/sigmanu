@@ -27,13 +27,12 @@ font-family: 'Droid Sans', sans-serif;
 	margin-left:17%;
 	margin-top:1%;
 	width:80%;
-	min-width:800px;
 	height:7%;
 	border-width:3px;
 	border-right:5px;
 	border-color:rgba(242,222,5,0.52);
 	padding-bottom:50px;
-	min-width:1020px;
+	min-width:1200px;
 	background:url("buttonBackground.png") bottom left no-repeat;
 	background-size:67.5%;
 }
