@@ -1,6 +1,4 @@
 
-
-
 body{
 		height:100%;
 	background-size: 100%;
@@ -57,6 +55,16 @@ font-family: 'Droid Sans', sans-serif;
 	border-width:3px;
 	border-right:5px;
 }
+#brothersTab{
+font-family: 'Droid Sans', sans-serif;
+	font-weight:bold;
+	font-size:16px;
+	margin-top:1%;
+	width:80%;
+	color:white;
+	border-width:3px;
+	border-right:5px;
+}
 #frontpanel {
     margin-bottom: 20px;
     background-color: #000;
@@ -93,4 +101,19 @@ padding-bottom:40%;
 #homePageCarousel{
 	margin-right:10%;
 	margin-top:1%;
+	margin-bottom:10%;
+}
+
+.brothersCarousel{
+	margin-right:20%;
+	margin-left:20%;
+	margin-top:3%;
+	font-weight:bold;
+}
+
+.carousel-indicators{
+	bottom:1px;
+}
+.carousel-caption{
+	padding-bottom:10px;
 }
