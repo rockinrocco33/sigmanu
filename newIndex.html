@@ -1,0 +1,174 @@
+<html>
+<!--Written by Matt Rocco. Shout out to twitter bootstrap for making the css easier -->
+<!--Hey, if you are here, and you are a brother, you should think about taking over tech chair once my epic run is complete. -->
+
+
+
+<head>
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body background="./images/background.jpg">
+      <div id="fb-root"></div>
+
+	    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '259418870917517',
+          xfbml      : true,
+          version    : 'v2.0'
+        });
+      };
+
+   
+function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=259418870917517&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+    </script>
+    <div id="fb-root"></div>
+
+<!--     <img id="topBanner" src="./images/banner.png" class="img-rounded"></img> -->
+    <div background="./images/buttonBackground.png">
+
+    	<img id="logo" src="./images/badge.png"
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" id="navBar" role="tablist">
+            <li class=" active"><a href="#home" role="tab" data-toggle="tab">Home</a>
+            </li>
+            <li class=""><a href="#rushSigmaNu" role="tab" data-toggle="tab">Rush Sigma Nu</a>
+            </li>
+            <li class=""><a href="#brothers" role="tab" data-toggle="tab">Brothers</a>
+            </li>
+            <li class=""><a href="#aboutUs" role="tab" data-toggle="tab">About Us </a>
+            </li>
+            <li class=""><a href="#alumni" role="tab" data-toggle="tab">Alumni</a>
+            </li>
+            <li class=""><a href="#contactUs" role="tab" data-toggle="tab">Contact Us</a>
+            </li>
+            <h3 id="navSigNu"> Sigma Nu at Rose-Hulman </h3>
+        </ul>
+    </div>
+
+    <div class="tab-content" style="color:red">
+        <div class="tab-pane fade in active" id="home">
+      
+
+      <div class="container">
+    <div class="row">
+        <div class="col-xs-6">
+       <div id="homePageCarousel" class="carousel slide inverted" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#homePageCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#homePageCarousel" data-slide-to="1"></li>
+                    <li data-target="#homePageCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+
+                        <img src="images/houseSmall.jpg" class="img-responsive">
+                        <div class="carousel-caption">
+                        <h3> The House </h3>
+                            Come by and ask for a tour
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/compositeSmall.jpg" class="img-responsive" alt="...">
+                        <div class="carousel-caption">
+                        <h3> The Brothers that make it </h3>
+
+                        </div>
+                    </div>
+                               <div class="item">
+                        <img src="images/luau.png" class="img-responsive" alt="...">
+
+                        <div class="carousel-caption" style="font-weight:bold; font-size:20px;">
+                            Sorry freshman Rose-Hulman males, Rose-Hulman IFC dictates you guys aren't allowed at our parties until after Rush.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" id= "custom-control" href="#homePageCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" id ="custom-control" href="#homePageCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+        <div class="col-xs-6">
+            
+<div class="fb-like-box" data-href="https://www.facebook.com/SigmaNuBetaUpsilon" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>        </div>
+                </div>
+
+    </div>
+</div>
+      
+
+
+
+        <div class="tab-pane fade" id="rushSigmaNu">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        <div class="tab-pane fade" id="brothers">3</div>
+        <div class="tab-pane fade" id="aboutUs">4</div>
+        <div class="tab-pane fade" id="alumni">5</div>
+        <div class="tab-pane fade" id="contactUs">
+<div class = "row"> 
+	<div class ="col-mid-6">
+<iframe width="600" height="450" frameborder="0" style="border:0; margin-left:10%" src="https://www.google.com/maps/embed/v1/place?q=Sigma%20Nu%20Fraternity%2C%20Wabash%20Avenue%2C%20Terre%20Haute%2C%20IN%2C%20United%20States&key=AIzaSyDapkQPi1P3xdA6hWw4PTTuC9MX8ffYoWQ"></iframe> 
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="./javascript/jquery-1.11.1.js"></script>
+        <link rel="stylesheet" href="./stylesheets/CSS.css">
+
+    <link rel="stylesheet" href="./stylesheets/bootstrap.3.1.1.min.css">
+    <link rel="stylesheet" href="./stylesheets/rotatingWords.css">
+    <script src="./javascript/index.js">
+    </script>
+    <script src="./javascript/bootstrap.js"></script>
+
+</body>
+
+
+</html>
