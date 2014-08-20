@@ -8,6 +8,7 @@ body{
 	color:white;
 	font-style:italic;
 	margin-right:1%;
+	font-size:28px;
 	font-family: 'Open Sans', sans-serif;
 	float:right;
 	margin-top:14px;
@@ -75,6 +76,7 @@ font-family: 'Droid Sans', sans-serif;
 }
 .panel-body{
 	font-size:17px;
+	text-align:left;
 	font-family: 'Droid Sans', sans-serif;
 
 }
