@@ -71,9 +71,12 @@ color:white;
 	-ms-ie-background-size: 100%;
   -webkit-background-size: 100%
 }
+
+#fb-box{
+	float:left;
+}
 #homePageCarousel{
 	width:100%;
 	margin-right:10%;
 	margin-top:1%;
-
 }
