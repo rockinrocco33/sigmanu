@@ -5,7 +5,7 @@ body{
 		height:100%;
 	background-size: 100%;
 	-ms-ie-background-size: 100%;
-  -webkit-background-size: 100%
+  -webkit-background-size: 100%;
 
 }
 #navSigNu{
@@ -27,6 +27,10 @@ body{
 #rushSigmaNu{
 	margin-top:1%;
 }
+.aboutTabs{
+	  font-size:16px;
+
+}
 
 #navBar{
 font-family: 'Droid Sans', sans-serif;
@@ -42,6 +46,16 @@ font-family: 'Droid Sans', sans-serif;
 	min-width:1200px;
 	background:url("buttonBackground.png") bottom left no-repeat;
 	background-size:67.5%;
+}
+#aboutUsTab{
+font-family: 'Droid Sans', sans-serif;
+	font-weight:bold;
+	font-size:16px;
+	margin-top:1%;
+	width:80%;
+	color:white;
+	border-width:3px;
+	border-right:5px;
 }
 #frontpanel {
     margin-bottom: 20px;
