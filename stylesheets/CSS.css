@@ -93,6 +93,7 @@ height:2%;
 padding-bottom:40%;
 }
 .carousel-inner > .item > img { margin: 0 auto; }
+.fb-like-box, .fb-like-box span, .fb-like-box iframe[style] {width: 100% !important;}
 
 
 
