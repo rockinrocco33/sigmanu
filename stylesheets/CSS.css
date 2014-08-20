@@ -25,39 +25,34 @@ font-family: 'Droid Sans', sans-serif;
 	font-weight:bold;
 	font-size:16px;
 	margin-left:17%;
+	margin-top:1%;
 	width:80%;
 	min-width:800px;
 	height:7%;
 	border-width:3px;
+	border-right:5px;
 	border-color:rgba(242,222,5,0.52);
-	background-color:#111;
 	padding-bottom:50px;
 	min-width:1020px;
 	background:url("buttonBackground.png") bottom left no-repeat;
+	background-size:67.5%;
 }
 
 #navBar > li {
 margin-left:2px;
 padding-left:3px;
-	padding-top:5px;
 padding-right:3px;
 margin-right:2px;
-border-style:solid;
-border-radius:10px;
-border-left:3px;
-border-right:3px;
-border-top:0px;
-border-bottom:0px;
+
+}
+.active > a{
+	color:white;
 }
 #navBar > li > a {
-color:white;
+color:black;
+height:2%;
+padding-bottom:40%;
 }
-#navBar > .active > a{
-	background-color:black;
-	color:rgba(242,222,5,0.52);
-
-}
-
 .carousel-inner > .item > img { margin: 0 auto; }
 
 #topBanner{
