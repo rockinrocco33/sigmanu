@@ -67,6 +67,7 @@ padding-bottom:40%;
 
 #fb-box{
 	float:left;
+	position:absolute;
 }
 #homePageCarousel{
 	width:100%;
