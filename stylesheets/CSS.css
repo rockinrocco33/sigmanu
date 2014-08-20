@@ -24,6 +24,9 @@ body{
 #workingArea{
 	margin-left:245px;
 }
+#rushSigmaNu{
+	margin-top:1%;
+}
 
 #navBar{
 font-family: 'Droid Sans', sans-serif;
@@ -31,7 +34,7 @@ font-family: 'Droid Sans', sans-serif;
 	font-size:16px;
 	margin-top:1%;
 	width:80%;
-	height:7%;
+	height:1%;
 	border-width:3px;
 	border-right:5px;
 	border-color:rgba(242,222,5,0.52);
@@ -40,12 +43,21 @@ font-family: 'Droid Sans', sans-serif;
 	background:url("buttonBackground.png") bottom left no-repeat;
 	background-size:67.5%;
 }
+#frontpanel {
+    margin-bottom: 20px;
+    background-color: #000;
+    border: 3px solid transparent;
+    border-radius: 5px;
+    margin-top:2%;
+    box-shadow: 1px 1px 12px rgba(252, 221, 54, 0.56);
+}
 
 #navBar > li {
 margin-left:2px;
 padding-left:3px;
 padding-right:3px;
 margin-right:2px;
+text-align:center;
 
 }
 .active > a{
@@ -65,7 +77,6 @@ padding-bottom:40%;
 	position:absolute;
 }
 #homePageCarousel{
-	width:100%;
 	margin-right:10%;
 	margin-top:1%;
 }
