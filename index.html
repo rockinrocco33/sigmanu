@@ -13,6 +13,8 @@ Waiting for someone or something to show you the way. -->
 
             <link rel="stylesheet" href="./stylesheets/bootstrap.3.1.1.min.css">
             <link rel="stylesheet" href="./stylesheets/rotatingWords.css">
+            <link href='./fullcalendar-2.0.3/fullcalendar.print.css' rel='stylesheet' media='print' />
+
                         <link rel="stylesheet" href="./stylesheets/CSS.css">
                         <meta charset='utf-8' />
 
@@ -20,13 +22,12 @@ Waiting for someone or something to show you the way. -->
             <script src="./javascript/jquery-1.11.1.js"></script>
     
             <script src="./javascript/bootstrap.js"></script>
-<link href='./fullcalendar-2.0.3/fullcalendar.css' rel='stylesheet' />
-<link href='./fullcalendar-2.0.3/fullcalendar.print.css' rel='stylesheet' media='print' />
+
+            <script src="./javascript/index.js">            </script>
+            <link href='./fullcalendar-2.0.3/fullcalendar.css' rel='stylesheet' />
 <script src='./fullcalendar-2.0.3/lib/moment.min.js'></script>
-<script src='./fullcalendar-2.0.3/lib/jquery.min.js'></script>
 <script src='./fullcalendar-2.0.3/lib/jquery-ui.custom.min.js'></script>
 <script src='./fullcalendar-2.0.3/fullcalendar.min.js'></script>
-            <script src="./javascript/index.js">            </script>
 
 </head>
 
@@ -125,11 +126,25 @@ Waiting for someone or something to show you the way. -->
 
 
         <div class="tab-pane fade" id="rushSigmaNu">
-
+          <p style="font-size:20px;font-weight:bold;color:white;font-family:'Droid Sans',sans-serif;text-align:center;"> Sigma Nu Rush 2014 Calendar. Select a event for more details. </p>
           <div class="row">
-            <div clsas="col-xs-6">
+            <div class="col-xs-6">
           <div id='calendar1'></div>
         </div>
+        <div class = "col-xs-6">
+          <div id="calendar2"></div>
+        </div>
+      </div>
+      <div class ="col-mid-6">
+    <div id = "frontpanel" class="panel">
+
+      <div class = "panel-body">
+        Event Details: 
+        <p id ="eventDetails"> </p>
+      </div>
+
+    </div>     
+
       </div>
         </div>
         <div class="tab-pane fade" id="brothers">
@@ -174,7 +189,7 @@ Waiting for someone or something to show you the way. -->
                         </div>
                         <div class="item">
                           <img class ="brotherPic" src="images/PAUL%20DUNAWAY.jpg" alt="5395299437206ded4c8be2e5_PAUL%20DUNAWAY.jpg">
-                          <div class="carousel-caption"><strong>Paul Dunnaway</strong>
+                          <div class="carousel-caption"><strong>Paul Dunaway</strong>
                           </div>
                         </div>
                         <div class="item">
@@ -243,7 +258,7 @@ Waiting for someone or something to show you the way. -->
                           </div>
                           <div class="item">
                             <img class ="brotherPic" src="images/PAUL%20BLIUDZUIS.jpg" alt="5395313bf45a59ec4c65504e_PAUL%20BLIUDZUIS.jpg">
-                            <div class="carousel-caption">Paul BlueJizz</div>
+                            <div class="carousel-caption">Paul Bliudzius</div>
                           </div>
                           <div class="item">
                             <img class ="brotherPic" src="images/JOHN%20COCHRAN.jpg" alt="53953172f45a59ec4c655050_JOHN%20COCHRAN.jpg">
@@ -275,7 +290,7 @@ Waiting for someone or something to show you the way. -->
                           </div>
                           <div class="item">
                             <img class ="brotherPic" src="images/MACKENZIE%20MAYBERRY.jpg" alt="539533b737206ded4c8be3cd_MACKENZIE%20MAYBERRY.jpg">
-                            <div class="carousel-caption">MacKenzie Mayberry</div>
+                            <div class="carousel-caption">Mackenzie Mayberry</div>
                           </div>
                           <div class="item">
                             <img class ="brotherPic" src="images/JOSEPH%20McENTIRE.jpg" alt="5395342eb8902f532c5f75b5_JOSEPH%20McENTIRE.jpg">
@@ -499,8 +514,8 @@ The brothers of Sigma Nu are a very close group of men. The men of Sigma Nu take
  Since Sigma Nu's inception back in 1869, we have and will continue to take a strong stance against hazing. Sigma Nu was founded in opposition to hazing after James Frank Hopkins saw ATO hazing their pledges. Our Anti-Hazing initiatives are designed to bring awareness and resources to chapters to help combat the dangerous practice of hazing.
  <br>
     <div class="row">
-                            <div class="col-mid-12">
-                          <img src = "./images/anti_hazing.jpg" class ="img-responsive img-thumbnail" style="margin-left:25%">
+                            <div class="col-xs-12" style="text-align:center;">
+                          <img src = "./images/anti_hazing.jpg" class ="img-responsive img-thumbnail" style="">
                           <br/>
                         </div>
                       </div>
@@ -521,11 +536,11 @@ If you believe that you have been hazed, or if you know somebody who may have be
                 </div> 
             </div>
                 </div>
-        <div class="tab-pane fade" id="alumni">5</div>
+        <div class="tab-pane fade" id="alumni"> Under Construction</div>
         <div class="tab-pane fade" id="contactUs">
             <div class="row" style="margin-top:2%">
                 <div class="col-mid-7">
-                    <iframe style="margin-left:20%;"width="600" height="450" frameborder="0" style="border:0;" src="https://www.google.com/maps/embed/v1/place?q=Sigma%20Nu%20Fraternity%2C%20Wabash%20Avenue%2C%20Terre%20Haute%2C%20IN%2C%20United%20States&key=AIzaSyDapkQPi1P3xdA6hWw4PTTuC9MX8ffYoWQ&zoom=15&maptype=satellite"></iframe>
+                    <iframe style="margin-left:20%;"width="600" height="450" frameborder="0" style="border:0;" src="https://www.google.com/maps/embed/v1/place?q=Sigma%20Nu%20Fraternity%2C%20Wabash%20Avenue%2C%20Terre%20Haute%2C%20IN%2C%20United%20States&key=AIzaSyDapkQPi1P3xdA6hWw4PTTuC9MX8ffYoWQ&zoom=14&maptype=satellite"></iframe>
                 </div>
                           </div>
 

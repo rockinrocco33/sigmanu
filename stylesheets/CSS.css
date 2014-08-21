@@ -31,6 +31,35 @@ body{
 
 }
 
+.fc-day1{
+	background-color:white;
+}
+.fc-header-title{
+	color:white;
+}
+
+.fc{
+	box-shadow: 1px 1px 12px rgba(252, 221, 54, 0.56);
+	background-color:black;
+}
+.fc-day-header{
+	color:white;
+}
+.fc-day-number{
+	color:white;
+}
+.event{
+	height:100;
+	margin-top:0%;
+	padding-top:0%;
+}
+
+#eventDetails{
+	color:white;
+	font-family: 'Droid Sans', sans-serif;
+	font-size:18px;
+
+}
 #navBar{
 font-family: 'Droid Sans', sans-serif;
 	font-weight:bold;
