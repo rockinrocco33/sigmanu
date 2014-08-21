@@ -138,7 +138,7 @@ padding-bottom:40%;
 	width:350px;
 }
 .carousel-inner > .item > img { margin: 0 auto; }
-.fb-like-box, .fb-like-box span, .fb-like-box iframe[style] {width: 100% !important;
+.fb-like-box, .fb-like-box span, .fb-like-box iframe[style] {width: 110% !important;
 height:100% !important;}
 
 
