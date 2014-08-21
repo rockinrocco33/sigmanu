@@ -26,6 +26,7 @@ body{
 #rushSigmaNu{
 	margin-top:1%;
 }
+
 .aboutTabs{
 	  font-size:16px;
 
@@ -41,6 +42,12 @@ body{
 .fc{
 	box-shadow: 1px 1px 12px rgba(252, 221, 54, 0.56);
 	background-color:black;
+}
+.fc-content{
+	height:64%;
+}
+.fc-view{
+	height:100%;
 }
 .fc-day-header{
 	color:white;
