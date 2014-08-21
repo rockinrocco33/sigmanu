@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-
+//d
 $('#navBar a').click(function (e) {
   e.preventDefault()
   $(this).tab('show');
@@ -9,25 +9,46 @@ $('#aboutUsTab a').click(function (e) {
   e.preventDefault()
   $(this).tab('show');
 });
+//i
 $('#brothersTab a').click(function (e) {
   e.preventDefault()
   $(this).tab('show');
 });
+//c
 $("#tab1").tab('show');
 $('.carousel').carousel();
-
+//kb
 $("#tab2").tab('show');
 $("#tab3").tab('show');
  $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
         $('#calendar1').fullCalendar('render');
         $('#calendar2').fullCalendar('render');
     });
-
+//u
 $('#sophmoresCarousel').carousel();
 $('#juniorsCarousel').carousel();
 $('#seniorCarousel').carousel();
 var previous;
+var currentKeyString = "";
+var currentKeyStringCount = 0;
 
+//tt
+$(document).keypress(function(e){
+secretString = ["100","105","99","107","98","117","116","116"];
+    if(e.charCode == secretString[currentKeyStringCount]){
+        currentKeyStringCount = currentKeyStringCount + 1;
+        if(currentKeyStringCount == secretString.length){
+            $('#db').modal('show');
+        } 
+
+        
+    } else{
+        currentKeyStringCount = 0;
+    }
+    // currentKeyString = currentKeyString + e.keyCode;
+
+
+});
 $('#calendar1').fullCalendar({
 				eventClick: function(calEvent, jsEvent, view){
 				$(this).css('border-color','white');
