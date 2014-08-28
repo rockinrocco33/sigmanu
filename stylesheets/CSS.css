@@ -39,6 +39,13 @@ body{
 	color:white;
 }
 
+.fc-event{
+		background-color:#D2B519;
+		color:black;
+		border-color:#D28519;
+
+}
+
 .fc{
 	box-shadow: 1px 1px 12px rgba(252, 221, 54, 0.56);
 	background-color:black;

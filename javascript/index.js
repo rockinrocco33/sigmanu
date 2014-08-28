@@ -5,6 +5,10 @@ $('#navBar a').click(function (e) {
   e.preventDefault()
   $(this).tab('show');
 });
+$('#picLink').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show');
+});
 $('#aboutUsTab a').click(function (e) {
   e.preventDefault()
   $(this).tab('show');
