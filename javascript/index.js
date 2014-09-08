@@ -81,19 +81,19 @@ $('#calendar1').fullCalendar({
 					title: 'Greek Fair',
 					start: '2014-09-04',
 					className:"event",
-					custom:"Come down to the greek fair and see our booth!",
+					custom:"Come down to the Greek fair and see our booth!",
 				},
 					{
 					title: 'No Contact',
 					start: '2014-09-05',
 					end: '2014-09-15',
 					className:"event",
-					custom:"IFC dicates that we cannot speak to you during this period",
+					custom:"IFC dictates that we cannot speak to you during this period",
 					backgroundColor:'#800000'
 				},
 				{
 					title: 'Dorm Storming',
-					custom:"Fraternities storm the dorms to inform freshman of rush activites. Be sure to leave your door open!",
+					custom:"Fraternities storm the dorms to inform freshman of rush activities. Be sure to leave your door open!",
 					start: '2014-09-15T19:00:00',
 					end: '2014-09-10T22:00:00',
 					className:"event"
@@ -113,19 +113,19 @@ $('#calendar1').fullCalendar({
 					{
 					title: 'Speed Lawn BBQ with smoked meat',
 					start: '2014-09-18',
-					custom:"Come down to spped lawn for some BBQ smoked by none other than Sigma Nu Thomas Demos.",
+					custom:"Come down to speed lawn for some BBQ smoked by none other than Sigma Nu Thomas Demos.",
 					className:"event"
 				},
 					{
 					title: 'Speed Lawn BBQ and Smoothies',
 					start: '2014-09-19',
-					custom:"Come down to spped lawn for some BBQ and delicious smoothies.",
+					custom:"Come down to speed lawn for some BBQ and delicious smoothies.",
 					className:"event"
 				},
 					{
 					title: 'Jello Wrestling with Pig Roast',
 					start: '2014-09-20',
-					custom:"Join the Brothers of Sigma Nu for our annual jellow wrestling event.",
+					custom:"Join the Brothers of Sigma Nu for our annual Jello wrestling event.",
 					className:"event"
 				},
 					{
@@ -137,7 +137,7 @@ $('#calendar1').fullCalendar({
 					{
 					title: 'Monday Night Football and Giant Subs',
 					start: '2014-09-22',
-					custom:"Join us in our theatre room at the house for some football and food.",
+					custom:"Join us in our theater room at the house for some football and food.",
 					className:"event"
 				},
 					{
@@ -149,7 +149,7 @@ $('#calendar1').fullCalendar({
 					{
 					title: 'South Park and Papa Johns',
 					start: '2014-09-24',
-					custom:"Watch this weeks south park in our theatre room and eat some pizza.",
+					custom:"Watch this weeks south park in our theater room and eat some pizza.",
 
 					className:"event"
 				},
@@ -180,7 +180,7 @@ $('#calendar1').fullCalendar({
 					{
 					title: 'Monday Night Football',
 					start: '2014-09-29',
-					custom:"Join us in our theatre room at the house for some football and food.",
+					custom:"Join us in our theater room at the house for some football and food.",
 					className:"event"
 				},
 					{
@@ -218,7 +218,7 @@ $('#calendar2').fullCalendar({
 				{
 					title: 'South Park and Papa Johns',
 					start: '2014-10-01',
-					custom:"Watch this weeks south park in our theatre room and eat some pizza.",
+					custom:"Watch this weeks south park in our theater room and eat some pizza.",
 					className:"event"
 				},
 					{
@@ -231,7 +231,7 @@ $('#calendar2').fullCalendar({
 					title: 'Homecoming - No Contact',
 					start: '2014-10-03',
 					end: '2014-10-05',
-					custom:"IFC dicates that we cannot speak to you during this period",
+					custom:"IFC dictates that we cannot speak to you during this period",
 
 					className:"event",
 					backgroundColor:'#800000'
@@ -239,12 +239,12 @@ $('#calendar2').fullCalendar({
 				},
 				{
 					title: 'Monday Night Football and Papa Johns',
-					custom:"Join us in our theatre room at the house for some football and food.",
+					custom:"Join us in our theater room at the house for some football and food.",
 					start: '2014-19-06',
 					className:"event"
 				},
 					{
-					title: 'Pick Up Baskball and Dinner',
+					title: 'Pick Up Basketball and Dinner',
 					start: '2014-10-07',
 					custom:"Pick up basketball game behind speed. Dinner Following",
 					className:"event"
@@ -260,14 +260,14 @@ $('#calendar2').fullCalendar({
 					title: 'Fall Break - No contact',
 					start: '2014-10-09',
 					end: '2014-10-12',
-					custom:"IFC dicates that we cannot speak to you during this period",
+					custom:"IFC dictates that we cannot speak to you during this period",
 					className:"event",
 					backgroundColor:'#800000'
 
 				},
 					{
-					title: 'Monday Night Football and Chick-fil-a',
-					custom:"Join us in our theatre room at the house for some football and food.",
+					title: 'Monday Night Football and Chick-Fil-a',
+					custom:"Join us in our theater room at the house for some football and food.",
 					start: '2014-10-13',
 					className:"event"
 				},
@@ -280,7 +280,7 @@ $('#calendar2').fullCalendar({
 					{
 					title: 'South Park and Papa Johns',
 					start: '2014-10-15',
-					custom:"Watch this weeks south park in our theatre room and eat some pizza.",
+					custom:"Watch this weeks south park in our theater room and eat some pizza.",
 					className:"event"
 				},
 					{
@@ -292,12 +292,12 @@ $('#calendar2').fullCalendar({
 					{
 					title: 'Hockey Night',
 					start: '2014-10-17',
-					custom: 'Hockey game in indianapolis',
+					custom: 'Hockey game in Indianapolis',
 					className:"event"
 				},
 					{
 					title: 'Monday Night Football',
-					custom:"Join us in our theatre room at the house for some football and food.",
+					custom:"Join us in our theater room at the house for some football and food.",
 					start: '2014-10-20',
 					className:"event"
 				},
@@ -309,7 +309,7 @@ $('#calendar2').fullCalendar({
 				},
 					{
 					title: 'South Park and Chick-Fil-A',
-					custom:"Watch this weeks south park in our theatre room and eat some Chick-Fil-A.",
+					custom:"Watch this weeks south park in our theater room and eat some Chick-Fil-A.",
 					start: '2014-10-22',
 					className:"event"
 				},
@@ -328,7 +328,7 @@ $('#calendar2').fullCalendar({
 					{
 					title: 'PaintBall',
 					start: '2014-10-25',
-					custom:'Come play paintball with us in Indianapolis. Dinner following.',
+					custom:'Come play paint ball with us in Indianapolis. Dinner following.',
 					className:"event"
 					},
 					{
