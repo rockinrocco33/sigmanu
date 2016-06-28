@@ -3,626 +3,537 @@
 <!--Hey, if you are here, and you are a brother, you should think about taking over tech chair once my epic run is complete. -->
 <!-- Trashcan can touch the ceiling -->
 <!-- BBCDEFFGGMMMPRSSSTW  19 = 17 = 6 = 1 
-Ticking away the moments that make up a dull day
-Fritter and waste the hours in an offhand way.
-Kicking around on a piece of ground in your home town
-Waiting for someone or something to show you the way. -->
+     Ticking away the moments that make up a dull day
+     Fritter and waste the hours in an offhand way.
+     Kicking around on a piece of ground in your home town
+     Waiting for someone or something to show you the way. -->
 
 <head>
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
-            <link href='./fullcalendar-2.0.3/fullcalendar.css' rel='stylesheet' />
-
-            <link rel="stylesheet" href="./stylesheets/bootstrap.3.1.1.min.css">
-            <link rel="stylesheet" href="./stylesheets/rotatingWords.css">
-            <link href='./fullcalendar-2.0.3/fullcalendar.print.css' rel='stylesheet' media='print' />
-
-                        <link rel="stylesheet" href="./stylesheets/CSS.css">
-                        <meta charset='utf-8' />
-
-
-            <script src="./javascript/jquery-1.11.1.js"></script>
-
-            <script src="./javascript/bootstrap.js"></script>
-
-            <script src="./javascript/index.js">            </script>
-<script src='./fullcalendar-2.0.3/lib/moment.min.js'></script>
-<script src='./fullcalendar-2.0.3/lib/jquery-ui.custom.min.js'></script>
-<script src='./fullcalendar-2.0.3/fullcalendar.min.js'></script>
-
+    <link href='./fullcalendar-2.0.3/fullcalendar.css' rel='stylesheet' />
+    <link rel="stylesheet" href="./stylesheets/bootstrap.3.1.1.min.css">
+    <link rel="stylesheet" href="./stylesheets/rotatingWords.css">
+    <link href='./fullcalendar-2.0.3/fullcalendar.print.css' rel='stylesheet' media='print' />
+    <link rel="stylesheet" href="./stylesheets/CSS.css">
+    <meta charset='utf-8' />
+    <script src="./javascript/jquery-1.11.1.js"></script>
+    <script src="./javascript/bootstrap.js"></script>
+    <script src="./javascript/index.js"></script>
+    <script src='./fullcalendar-2.0.3/lib/moment.min.js'></script>
+    <script src='./fullcalendar-2.0.3/lib/jquery-ui.custom.min.js'></script>
+    <script src='./fullcalendar-2.0.3/fullcalendar.min.js'></script>
 </head>
 
 <body background="./images/background.jpg">
-
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=259418870917517&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
+    <div id="fb-root"></div>
+    <script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=259418870917517&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
     <!--     <img id="topBanner" src="./images/banner.png" class="img-rounded"></img> -->
-
-          <div id="workingArea">
-    <div>
-        <!-- Nav tabs -->
-        <ul class="nav nav-tabs" id="navBar" role="tablist">
-            <li class=" active"><a href="#home" role="tab" data-toggle="tab">&nbsp&nbspHome&nbsp&nbsp <br/><span class="glyphicon glyphicon-home"></span></a>
-            </li>
-            <li class=""><a href="#rushSigmaNu" role="tab" data-toggle="tab">&nbsp&nbspRush&nbsp&nbsp
-              <br/><span class="glyphicon glyphicon-thumbs-up"></span></a>
-            </li>
-            <li class=""><a href="#brothers" role="tab" data-toggle="tab">Brothers<br/><span class="glyphicon glyphicon-user"></span></a>
-            </li>
-            <li class=""><a href="#aboutUs" role="tab" data-toggle="tab">&nbspAbout&nbsp&nbsp<br/><span class="glyphicon glyphicon-zoom-in"></span></a>
-            </li>
-            <li class=""><a href="#alumni" role="tab" data-toggle="tab">&nbspAlumni&nbsp<br/><span class="glyphicon glyphicon-globe"></span></a>
-            </li>
-            <li class=""><a href="#contactUs" role="tab" data-toggle="tab">Contact&nbsp<br/><span class="glyphicon glyphicon-phone-alt"></span></a>
-              <li class =""><img style = "width:51%;"src="images/badge.png"/></li>
-            </li>
-            <h3 id="navSigNu">Sigma Nu at Rose-Hulman</h3>
-        </ul>
-    </div>
-
-    <div class="tab-content">
-        <div class="tab-pane fade in active" id="home" style="font-size:16px">
-            <div class="container">
-                <div class="row" style="height:90%;">
-                    <div class="col-xs-8">
-        <div id = "frontpanel"class="panel">
-                    <div class="panel-body" style="color:white;">
-                      The men of Sigma Nu Beta Upsilon Chapter at Rose Hulman welcome you to our online website. With Rush right around the corner, we are very busy preparing for a great year. Check out our Rush section for more information, as well as a detailed rush calendar.
-                    </div>
-                        <div id="homePageCarousel" class="carousel slide inverted" data-ride="carousel">
-                            <!-- Indicators -->
-                            <ol class="carousel-indicators">
-                                <li data-target="#homePageCarousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#homePageCarousel" data-slide-to="1"></li>
-                                <li data-target="#homePageCarousel" data-slide-to="2"></li>
-                            </ol>
-
-                            <!-- Wrapper for slides -->
-                            <div class="carousel-inner">
-                                <div class="item active">
-
-                                    <img src="images/houseSmall.jpg" class="img-responsive">
-                                    <div class="carousel-caption">
-                                        The House
-                                    </div>
+    <div id="workingArea">
+        <div>
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" id="navBar" role="tablist">
+                <li class=" active">
+                 	<a href="#home" role="tab" data-toggle="tab">&nbsp&nbspHome&nbsp&nbsp <br/><span class="glyphicon glyphicon-home"></span></a>
+                </li>
+                <li class="">
+                  	<a href="#rushSigmaNu" role="tab" data-toggle="tab">&nbsp&nbspRush&nbsp&nbsp
+                  	<br/><span class="glyphicon glyphicon-thumbs-up"></span></a>
+                </li>
+                <li class="">
+                  	<a href="#brothers" role="tab" data-toggle="tab">Brothers<br/><span class="glyphicon glyphicon-user"></span></a>
+                </li>
+                <li class="">
+                  	<a href="#aboutUs" role="tab" data-toggle="tab">&nbspAbout&nbsp&nbsp<br/><span class="glyphicon glyphicon-zoom-in"></span></a>
+                </li>
+                <li class="">
+                  	<a href="#alumni" role="tab" data-toggle="tab">&nbspAlumni&nbsp<br/><span class="glyphicon glyphicon-globe"></span></a>
+                </li>
+                <li class="">
+                  	<a href="#contactUs" role="tab" data-toggle="tab">Contact&nbsp<br/><span class="glyphicon glyphicon-phone-alt"></span></a>
+                  	<li class=""><img style="width:51%;" src="images/badge.png" /></li>
+                </li>
+                <h3 id="navSigNu">Sigma Nu at Rose-Hulman</h3>
+            </ul>
+        </div>
+        <div class="tab-content">
+            <div class="tab-pane fade in active" id="home" style="font-size:16px">
+                <div class="container">
+                    <div class="row" style="height:90%;">
+                        <div class="col-xs-8">
+                            <div id="frontpanel" class="panel">
+                                <div class="panel-body" style="color:white;">
+                                    The men of Sigma Nu Beta Upsilon Chapter at Rose Hulman welcome you to our online website. With Rush right around the corner, we are very busy preparing for a great year. Check out our Rush section for more information, as well as a detailed rush calendar.
                                 </div>
-                                <div class="item">
-                                  <a id = "picLink" href="#brothers" role="tab" data-toggle="tab">
-                                    <img src="images/compositeSmall.jpg" class="img-responsive" alt="...">
-                                    <div class="carousel-caption">
-                                        The Brothers that make it
+                                <div id="homePageCarousel" class="carousel slide inverted" data-ride="carousel">
+                                    <!-- Indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#homePageCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#homePageCarousel" data-slide-to="1"></li>
+                                        <li data-target="#homePageCarousel" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img src="images/houseSmall.jpg" class="img-responsive">
+                                            <div class="carousel-caption">
+                                                The House
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <a id="picLink" href="#brothers" role="tab" data-toggle="tab">
+                                                <img src="images/compositeSmall.jpg" class="img-responsive" alt="...">
+                                                <div class="carousel-caption">
+                                                    The Brothers that make it
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <img src="images/luau.png" class="img-responsive" alt="...">
+                                            <div class="carousel-caption">
+                                                IFC Bylaws dictate that no male Rose-Hulman freshmen are allowed to attend Sigma Luau.
+                                            </div>
+                                        </div>
                                     </div>
-                                  </a>
-                                </div>
-                                <div class="item">
-                                    <img src="images/luau.png" class="img-responsive" alt="...">
-
-                                    <div class="carousel-caption">
-      IFC Bylaws dictate that no male Rose-Hulman freshmen are allowed to attend Sigma Luau.                                    </div>
+                                    <!-- Controls -->
+                                    <a class="left carousel-control" id="custom-control" href="#homePageCarousel" role="button" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left"></span>
+                                    </a>
+                                    <a class="right carousel-control" id="custom-control" href="#homePageCarousel" role="button" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right"></span>
+                                    </a>
                                 </div>
                             </div>
-
-                            <!-- Controls -->
-                            <a class="left carousel-control" id="custom-control" href="#homePageCarousel" role="button" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left"></span>
-                            </a>
-                            <a class="right carousel-control" id="custom-control" href="#homePageCarousel" role="button" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                            </a>
+                        </div>
+                        <div class="col-xs-4">
+                            <div id="fb-box" class="fb-like-box" data-href="https://www.facebook.com/SigmaNuBetaUpsilon" data-height="699" data-width="240" data-colorscheme="dark" data-show-faces="false" data-header="false" data-stream="true" data-show-border="false"></div>
                         </div>
                     </div>
                 </div>
-                  <div class ="col-xs-4">
-    <div id ="fb-box"class="fb-like-box" data-href="https://www.facebook.com/SigmaNuBetaUpsilon" data-height="699" data-width="240"data-colorscheme="dark" data-show-faces="false" data-header="false" data-stream="true" data-show-border="false"></div>
-                  </div>
-              </div>
-                              </div>
             </div>
-
-
-
-
-        <div class="tab-pane fade" id="rushSigmaNu">
-          <p style="font-size:20px;font-weight:bold;color:white;font-family:'Droid Sans',sans-serif;text-align:center;"> Sigma Nu Rush 2014 Calendar. Click on an event for more details. </p>
-          <div class="row">
-            <div class="col-xs-6">
-          <div id='calendar1'></div>
-        </div>
-        <div class = "col-xs-6">
-          <div id="calendar2"></div>
-        </div>
-      </div>
-      <div class ="col-mid-6">
-    <div id = "frontpanel" class="panel">
-
-      <div class = "panel-body">
-        Event Details:
-        <p id ="eventDetails"> </p>
-      </div>
-
-    </div>
-
-      </div>
-        </div>
-        <div class="tab-pane fade" id="brothers">
-
-          <div class="row">
-            <div class="col-xs-12">
-
-                        <div id = "frontpanel"class="panel">
-                          <ul class="nav nav-tabs" id = "brothersTab"role="tablist">
-  <li class="active"><a href="#sophmores">Sophmores</a></li>
-  <li><a href="#juniors">Juniors</a></li>
-  <li><a href="#seniors">Seniors</a></li>
-</ul>
-
-<div class="tab-content">
-  <div class="tab-pane active" id="sophmores">
-
-
-
-                        <div id="sophmoresCarousel" class="carousel slide inverted brothersCarousel" data-ride="carousel">
-                            <!-- Indicators -->
-                            <ol class="carousel-indicators">
-                                <li data-target="#sophmoresCarousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#sophmoresCarousel" data-slide-to="1"></li>
-                                <li data-target="#sophmoresCarousel" data-slide-to="2"></li>
-    <li data-target="#sophmoresCarousel" data-slide-to="3"></li>
-        <li data-target="#sophmoresCarousel" data-slide-to="4"></li>
-            <li data-target="#sophmoresCarousel" data-slide-to="5"></li>
-                <li data-target="#sophmoresCarousel" data-slide-to="6"></li>
-                                <li data-target="#sophmoresCarousel" data-slide-to="7"></li>
-                                <li data-target="#sophmoresCarousel" data-slide-to="8"></li>
-                                <li data-target="#sophmoresCarousel" data-slide-to="9"></li>
-                                <li data-target="#sophmoresCarousel" data-slide-to="10"></li>
-                                <li data-target="#sophmoresCarousel" data-slide-to="11"></li>
-                                <li data-target="#sophmoresCarousel" data-slide-to="12"></li>
-                                <li data-target="#sophmoresCarousel" data-slide-to="13"></li>
-                                <li data-target="#sophmoresCarousel" data-slide-to="14"></li>
-                                <li data-target="#sophmoresCarousel" data-slide-to="15"></li>
-                                <li data-target="#sophmoresCarousel" data-slide-to="16"></li>
-
-                            </ol>
-                            <!-- Wrapper for slides -->
-                            <div class="carousel-inner">
-                        <div class="item active">
-                          <img class ="brotherPic" src="images/ARJIT%20BALI.jpg" class=""alt="5395246538947f542cc4a3c6_ARJIT%20BALI.jpg">
-                          <div class="carousel-caption">Arjit Bali</div>
+            <div class="tab-pane fade" id="rushSigmaNu">
+                <p style="font-size:20px;font-weight:bold;color:white;font-family:'Droid Sans',sans-serif;text-align:center;"> Sigma Nu Rush 2014 Calendar. Click on an event for more details. </p>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div id='calendar1'></div>
+                    </div>
+                    <div class="col-xs-6">
+                        <div id="calendar2"></div>
+                    </div>
+                </div>
+                <div class="col-mid-6">
+                    <div id="frontpanel" class="panel">
+                        <div class="panel-body">
+                            Event Details:
+                            <p id="eventDetails"> </p>
                         </div>
-                        <div class="item">
-                          <img class ="brotherPic" src="images/MICHAEL%20BALISTRERI.jpg" alt="5395293038947f542cc4a433_MICHAEL%20BALISTRERI.jpg">
-                          <div class="carousel-caption"><strong>Michael Balisteri</strong>
-                          </div>
-                        </div>
-                        <div class="item">
-                          <img class ="brotherPic" src="images/MORGAN%20BURRELL.jpg" alt="5395299437206ded4c8be2e5_MORGAN%20BURRELL.jpg">
-                          <div class="carousel-caption"><strong>Morgan Burrell</strong>
-                          </div>
-                        </div>
-                        <div class="item">
-                          <img class ="brotherPic" src="images/ANTHONY%20DE%20RADA.jpg" alt="539529d437206ded4c8be2e8_ANTHONY%20DE%20RADA.jpg">
-                          <div class="carousel-caption">Anthony De Rada</div>
-                        </div>
-                        <div class="item">
-                          <img class ="brotherPic" src="images/AUSTIN%20DERROW-PINION.jpg" alt="53952cc037206ded4c8be324_AUSTIN%20DERROW-PINION.jpg">
-                          <div class="carousel-caption">Austin Derrow-Pinion</div>
-                        </div>
-                        <div class="item">
-                          <img class ="brotherPic" src="images/MICHAEL%20HENRY.jpg" alt="53952e7838947f542cc4a47f_MICHAEL%20HENRY.jpg">
-                          <div class="carousel-caption">Michael Henry</div>
-                        </div>
-                        <div class="item">
-                          <img class ="brotherPic" src="images/HENRY%20HENSLEY.jpg" alt="53952ea937206ded4c8be361_HENRY%20HENSLEY.jpg">
-                          <div class="carousel-caption">Nigel Hensley</div>
-                        </div>
-                        <div class="item">
-                            <img class ="brotherPic" src="images/MICHAEL%20IACONO.jpg" alt="5395293038947f542cc4a433_MICHAEL%20IACONO.jpg">
-                            <div class="carousel-caption"><strong>Michael Iacono</strong>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img class ="brotherPic" src="images/ANTONIO%20MARTINEZ.jpg" alt="5395299437206ded4c8be2e5_ANTONIO%20MARTINEZ.jpg">
-                            <div class="carousel-caption"><strong>Antonio Martinez</strong>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img class ="brotherPic" src="images/JOHN%20McCLURE.jpg" alt="539529d437206ded4c8be2e8_JOHN%20McCLURE.jpg">
-                            <div class="carousel-caption">John McClure</div>
-                        </div>
-                        <div class="item">
-                            <img class ="brotherPic" src="images/JORDAN%20MILLER.jpg" alt="53952cc037206ded4c8be324_JORDAN%20MILLER.jpg">
-                            <div class="carousel-caption">Jordan Miller</div>
-                        </div>
-                        <div class="item">
-                            <img class ="brotherPic" src="images/DAX%20PHILIPS.jpg" alt="53952e7838947f542cc4a47f_DAX%20PHILIPS.jpg">
-                            <div class="carousel-caption">Dax Philips</div>
-                        </div>
-                        <div class="item">
-                            <img class ="brotherPic" src="images/MACKENZIE%20POGUE.jpg" alt="53952ea937206ded4c8be361_MACKENZIE%20POGUE.jpg">
-                            <div class="carousel-caption">Mack Pogue</div>
-                        </div>
-                        <div class="item">
-                            <img class ="brotherPic" src="images/DANE%20RUPSKA.jpg" alt="539529d437206ded4c8be2e8_DANE%20RUPSKA.jpg">
-                            <div class="carousel-caption">Dane Rupska</div>
-                        </div>
-                        <div class="item">
-                            <img class ="brotherPic" src="images/ANIRUDH%20SINGH.jpg" alt="53952cc037206ded4c8be324_ANIRUDH%20SINGH.jpg">
-                            <div class="carousel-caption">Anirudh Singh</div>
-                        </div>
-                        <div class="item">
-                            <img class ="brotherPic" src="images/AUSTIN%20STIEGLITZ.jpg" alt="53952e7838947f542cc4a47f_AUSTIN%20STIEGLITZ.jpg">
-                            <div class="carousel-caption">Austin Stieglitz</div>
-                        </div>
-                        <div class="item">
-                            <img class ="brotherPic" src="images/ALBERT%20UDOM.jpg" alt="53952ea937206ded4c8be361_ALBERT%20UDOM.jpg">
-                            <div class="carousel-caption">A.J. Udom</div>
-                        </div>
-
-                          </div>
-            <!-- Controls -->
-                            <a class="left carousel-control" id="custom-control" href="#sophmoresCarousel" role="button" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left"></span>
-                            </a>
-                            <a class="right carousel-control" id="custom-control" href="#sophmoresCarousel" role="button" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                            </a>
-
-                        </div>
-  </div>
-  <div class="tab-pane" id="juniors">
-
-
-
-              <div id="juniorsCarousel" class="carousel slide inverted brothersCarousel" data-ride="carousel">
-                            <!-- Indicators -->
-                            <ol class="carousel-indicators">
-                                <li data-target="#juniorsCarousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#juniorsCarousel" data-slide-to="1"></li>
-                                <li data-target="#juniorsCarousel" data-slide-to="2"></li>
-    <li data-target="#juniorsCarousel" data-slide-to="3"></li>
-        <li data-target="#juniorsCarousel" data-slide-to="4"></li>
-            <li data-target="#juniorsCarousel" data-slide-to="5"></li>
-                <li data-target="#juniorsCarousel" data-slide-to="6"></li>
-
-                            </ol>
-
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <img class ="brotherPic" src="images/MARC%20AUGUSTINE.jpg" class=""alt="5395246538947f542cc4a3c6_MARC%20AUGUSTINE.jpg">
-                                    <div class="carousel-caption">Marc Augustine</div>
-                                </div>
-                                <div class="item">
-                                    <img class ="brotherPic" src="images/ALEXANDER%20CROWLEY.jpg" alt="5395293038947f542cc4a433_ALEXANDER%20CROWLEY.jpg">
-                                    <div class="carousel-caption"><strong>Alexander Crowley</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="brothers">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div id="frontpanel" class="panel">
+                            <ul class="nav nav-tabs" id="brothersTab" role="tablist">
+                                <li class="active"><a href="#sophmores">Sophmores</a></li>
+                                <li><a href="#juniors">Juniors</a></li>
+                                <li><a href="#seniors">Seniors</a></li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="sophmores">
+                                    <div id="sophmoresCarousel" class="carousel slide inverted brothersCarousel" data-ride="carousel">
+                                        <!-- Indicators -->
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#sophmoresCarousel" data-slide-to="0" class="active"></li>
+                                            <li data-target="#sophmoresCarousel" data-slide-to="1"></li>
+                                            <li data-target="#sophmoresCarousel" data-slide-to="2"></li>
+                                            <li data-target="#sophmoresCarousel" data-slide-to="3"></li>
+                                            <li data-target="#sophmoresCarousel" data-slide-to="4"></li>
+                                            <li data-target="#sophmoresCarousel" data-slide-to="5"></li>
+                                            <li data-target="#sophmoresCarousel" data-slide-to="6"></li>
+                                            <li data-target="#sophmoresCarousel" data-slide-to="7"></li>
+                                            <li data-target="#sophmoresCarousel" data-slide-to="8"></li>
+                                            <li data-target="#sophmoresCarousel" data-slide-to="9"></li>
+                                            <li data-target="#sophmoresCarousel" data-slide-to="10"></li>
+                                            <li data-target="#sophmoresCarousel" data-slide-to="11"></li>
+                                            <li data-target="#sophmoresCarousel" data-slide-to="12"></li>
+                                            <li data-target="#sophmoresCarousel" data-slide-to="13"></li>
+                                            <li data-target="#sophmoresCarousel" data-slide-to="14"></li>
+                                            <li data-target="#sophmoresCarousel" data-slide-to="15"></li>
+                                            <li data-target="#sophmoresCarousel" data-slide-to="16"></li>
+                                        </ol>
+                                        <!-- Wrapper for slides -->
+                                        <div class="carousel-inner">
+                                            <div class="item active">
+                                                <img class="brotherPic" src="images/ARJIT%20BALI.jpg" class="" alt="5395246538947f542cc4a3c6_ARJIT%20BALI.jpg">
+                                                <div class="carousel-caption">Arjit Bali</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/MICHAEL%20BALISTRERI.jpg" alt="5395293038947f542cc4a433_MICHAEL%20BALISTRERI.jpg">
+                                                <div class="carousel-caption"><strong>Michael Balisteri</strong></div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/MORGAN%20BURRELL.jpg" alt="5395299437206ded4c8be2e5_MORGAN%20BURRELL.jpg">
+                                                <div class="carousel-caption"><strong>Morgan Burrell</strong></div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/ANTHONY%20DE%20RADA.jpg" alt="539529d437206ded4c8be2e8_ANTHONY%20DE%20RADA.jpg">
+                                                <div class="carousel-caption">Anthony De Rada</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/AUSTIN%20DERROW-PINION.jpg" alt="53952cc037206ded4c8be324_AUSTIN%20DERROW-PINION.jpg">
+                                                <div class="carousel-caption">Austin Derrow-Pinion</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/MICHAEL%20HENRY.jpg" alt="53952e7838947f542cc4a47f_MICHAEL%20HENRY.jpg">
+                                                <div class="carousel-caption">Michael Henry</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/HENRY%20HENSLEY.jpg" alt="53952ea937206ded4c8be361_HENRY%20HENSLEY.jpg">
+                                                <div class="carousel-caption">Nigel Hensley</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/MICHAEL%20IACONO.jpg" alt="5395293038947f542cc4a433_MICHAEL%20IACONO.jpg">
+                                                <div class="carousel-caption"><strong>Michael Iacono</strong></div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/ANTONIO%20MARTINEZ.jpg" alt="5395299437206ded4c8be2e5_ANTONIO%20MARTINEZ.jpg">
+                                                <div class="carousel-caption"><strong>Antonio Martinez</strong></div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/JOHN%20McCLURE.jpg" alt="539529d437206ded4c8be2e8_JOHN%20McCLURE.jpg">
+                                                <div class="carousel-caption">John McClure</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/JORDAN%20MILLER.jpg" alt="53952cc037206ded4c8be324_JORDAN%20MILLER.jpg">
+                                                <div class="carousel-caption">Jordan Miller</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/DAX%20PHILIPS.jpg" alt="53952e7838947f542cc4a47f_DAX%20PHILIPS.jpg">
+                                                <div class="carousel-caption">Dax Philips</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/MACKENZIE%20POGUE.jpg" alt="53952ea937206ded4c8be361_MACKENZIE%20POGUE.jpg">
+                                                <div class="carousel-caption">Mack Pogue</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/DANE%20RUPSKA.jpg" alt="539529d437206ded4c8be2e8_DANE%20RUPSKA.jpg">
+                                                <div class="carousel-caption">Dane Rupska</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/ANIRUDH%20SINGH.jpg" alt="53952cc037206ded4c8be324_ANIRUDH%20SINGH.jpg">
+                                                <div class="carousel-caption">Anirudh Singh</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/AUSTIN%20STIEGLITZ.jpg" alt="53952e7838947f542cc4a47f_AUSTIN%20STIEGLITZ.jpg">
+                                                <div class="carousel-caption">Austin Stieglitz</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/ALBERT%20UDOM.jpg" alt="53952ea937206ded4c8be361_ALBERT%20UDOM.jpg">
+                                                <div class="carousel-caption">A.J. Udom</div>
+                                            </div>
+                                        </div>
+                                        <!-- Controls -->
+                                        <a class="left carousel-control" id="custom-control" href="#sophmoresCarousel" role="button" data-slide="prev">
+                                            <span class="glyphicon glyphicon-chevron-left"></span>
+                                        </a>
+                                        <a class="right carousel-control" id="custom-control" href="#sophmoresCarousel" role="button" data-slide="next">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                        </a>
                                     </div>
                                 </div>
-                                <div class="item">
-                                    <img class ="brotherPic" src="images/PAUL%20DUNAWAY.jpg" alt="5395299437206ded4c8be2e5_PAUL%20DUNAWAY.jpg">
-                                    <div class="carousel-caption"><strong>Paul Dunaway</strong>
+                                <div class="tab-pane" id="juniors">
+                                    <div id="juniorsCarousel" class="carousel slide inverted brothersCarousel" data-ride="carousel">
+                                        <!-- Indicators -->
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#juniorsCarousel" data-slide-to="0" class="active"></li>
+                                            <li data-target="#juniorsCarousel" data-slide-to="1"></li>
+                                            <li data-target="#juniorsCarousel" data-slide-to="2"></li>
+                                            <li data-target="#juniorsCarousel" data-slide-to="3"></li>
+                                            <li data-target="#juniorsCarousel" data-slide-to="4"></li>
+                                            <li data-target="#juniorsCarousel" data-slide-to="5"></li>
+                                            <li data-target="#juniorsCarousel" data-slide-to="6"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="item active">
+                                                <img class="brotherPic" src="images/MARC%20AUGUSTINE.jpg" class="" alt="5395246538947f542cc4a3c6_MARC%20AUGUSTINE.jpg">
+                                                <div class="carousel-caption">Marc Augustine</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/ALEXANDER%20CROWLEY.jpg" alt="5395293038947f542cc4a433_ALEXANDER%20CROWLEY.jpg">
+                                                <div class="carousel-caption"><strong>Alexander Crowley</strong></div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/PAUL%20DUNAWAY.jpg" alt="5395299437206ded4c8be2e5_PAUL%20DUNAWAY.jpg">
+                                                <div class="carousel-caption"><strong>Paul Dunaway</strong></div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/JOSEPH%20KENDALL.jpg" alt="539529d437206ded4c8be2e8_JOSEPH%20KENDALL.jpg">
+                                                <div class="carousel-caption">Joseph Kendall</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/DANIEL%20KLINE.jpg" alt="53952cc037206ded4c8be324_DANIEL%20KLINE.jpg">
+                                                <div class="carousel-caption">Daniel Kline</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/ANDREW%20MINER.jpg" alt="53952e7838947f542cc4a47f_ANDREW%20MINER.jpg">
+                                                <div class="carousel-caption">Andrew Miner</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/ROBERT%20VARGO.jpg" alt="53952ea937206ded4c8be361_ROBERT%20VARGO.jpg">
+                                                <div class="carousel-caption">Robert Vargo</div>
+                                            </div>
+                                        </div>
+                                        <!-- Controls -->
+                                        <a class="left carousel-control" id="custom-control" href="#juniorsCarousel" role="button" data-slide="prev">
+                                            <span class="glyphicon glyphicon-chevron-left"></span>
+                                        </a>
+                                        <a class="right carousel-control" id="custom-control" href="#juniorsCarousel" role="button" data-slide="next">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                        </a>
                                     </div>
                                 </div>
-                                <div class="item">
-                                    <img class ="brotherPic" src="images/JOSEPH%20KENDALL.jpg" alt="539529d437206ded4c8be2e8_JOSEPH%20KENDALL.jpg">
-                                    <div class="carousel-caption">Joseph Kendall</div>
+                                <div class="tab-pane" id="seniors">
+                                    <div id="seniorCarousel" class="carousel slide inverted brothersCarousel" data-ride="carousel">
+                                        <!-- Indicators -->
+                                        <ol class="carousel-indicators indicate">
+                                            <li data-target="#seniorCarousel" data-slide-to="0" class="active"></li>
+                                            <li data-target="#seniorCarousel" data-slide-to="1"></li>
+                                            <li data-target="#seniorCarousel" data-slide-to="2"></li>
+                                            <li data-target="#seniorCarousel" data-slide-to="3"></li>
+                                            <li data-target="#seniorCarousel" data-slide-to="4"></li>
+                                            <li data-target="#seniorCarousel" data-slide-to="5"></li>
+                                            <li data-target="#seniorCarousel" data-slide-to="6"></li>
+                                            <li data-target="#seniorCarousel" data-slide-to="7"></li>
+                                            <li data-target="#seniorCarousel" data-slide-to="8"></li>
+                                            <li data-target="#seniorCarousel" data-slide-to="9"></li>
+                                            <li data-target="#seniorCarousel" data-slide-to="10"></li>
+                                            <li data-target="#seniorCarousel" data-slide-to="11"></li>
+                                            <li data-target="#seniorCarousel" data-slide-to="12"></li>
+                                            <li data-target="#seniorCarousel" data-slide-to="13"></li>
+                                            <li data-target="#seniorCarousel" data-slide-to="14"></li>
+                                            <li data-target="#seniorCarousel" data-slide-to="15"></li>
+                                            <li data-target="#seniorCarousel" data-slide-to="16"></li>
+                                            <li data-target="#seniorCarousel" data-slide-to="17"></li>
+                                            <li data-target="#seniorCarousel" data-slide-to="18"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="item active">
+                                                <img class="brotherPic" src="images/DOUGLAS%20BICKEL.jpg" alt="539530da37206ded4c8be3b4_DOUGLAS%20BICKEL.jpg">
+                                                <div class="carousel-caption">Douglas Bickel</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/PAUL%20BLIUDZUIS.jpg" alt="5395313bf45a59ec4c65504e_PAUL%20BLIUDZUIS.jpg">
+                                                <div class="carousel-caption">Paul Bliudzius</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/JOHN%20COCHRAN.jpg" alt="53953172f45a59ec4c655050_JOHN%20COCHRAN.jpg">
+                                                <div class="carousel-caption">John Michael Cochran</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/THOMAS%20DEMOS.jpg" alt="539531b6f45a59ec4c655052_THOMAS%20DEMOS.jpg">
+                                                <div class="carousel-caption">Thomas Demos</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/CHAZ%20EVANS.jpg" alt="539531eff45a59ec4c655055_CHAZ%20EVANS.jpg">
+                                                <div class="carousel-caption">Chaz Evans</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/PATRICK%20FONDA.jpg" alt="5395322a38947f542cc4a4b0_PATRICK%20FONDA.jpg">
+                                                <div class="carousel-caption">Patrick Fonda</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/TAYLOR%20FORTMEYER.jpg" alt="539532f0b8902f532c5f75ae_TAYLOR%20FORTMEYER.jpg">
+                                                <div class="carousel-caption">Taylor Fortmeyer&nbsp;</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/LAWRENCE%20GOEDRICH.jpg" alt="5395333b37206ded4c8be3c3_LAWRENCE%20GOEDRICH.jpg">
+                                                <div class="carousel-caption">Lawrence Goedrich</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/BRIAN%20GUESS.jpg" alt="5395337737206ded4c8be3c9_BRIAN%20GUESS.jpg">
+                                                <div class="carousel-caption">Brian Guess</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/MACKENZIE%20MAYBERRY.jpg" alt="539533b737206ded4c8be3cd_MACKENZIE%20MAYBERRY.jpg">
+                                                <div class="carousel-caption">Mackenzie Mayberry</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/JOSEPH%20McENTIRE.jpg" alt="5395342eb8902f532c5f75b5_JOSEPH%20McENTIRE.jpg">
+                                                <div class="carousel-caption">Joseph&nbsp;McEntire</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/JOSEPH%20MONHAUT.jpg" alt="5395346938947f542cc4a4c0_JOSEPH%20MONHAUT.jpg">
+                                                <div class="carousel-caption">Joseph Monhaut</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/JORDAN%20PATTERSON.jpg" alt="539534aff45a59ec4c655064_JORDAN%20PATTERSON.jpg">
+                                                <div class="carousel-caption">Jordan Patterson</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/MATTHEW%20ROCCO.jpg" alt="539534ca38947f542cc4a4c4_MATTHEW%20ROCCO.jpg">
+                                                <div class="carousel-caption">Matthew Rocco</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/JOSHUA%20SCALA.jpg" alt="539534f9f45a59ec4c655069_JOSHUA%20SCALA.jpg">
+                                                <div class="carousel-caption">Joshua Scala</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/JULIAN%20SFEIR.jpg" alt="5395352737206ded4c8be3f5_JULIAN%20SFEIR.jpg">
+                                                <div class="carousel-caption">Julian Sfeir</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/ATUL%20SHASTRY.jpg" alt="5395354837206ded4c8be3f9_ATUL%20SHASTRY.jpg">
+                                                <div class="carousel-caption">Atul Shastry</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/D_KHARI-JAMES%20TURNER-SMITH.jpg" alt="5395358c37206ded4c8be41d_D%27KHARI-JAMES%20TURNER-SMITH.jpg">
+                                                <div class="carousel-caption">D'khari-James Turner-Smith</div>
+                                            </div>
+                                            <div class="item">
+                                                <img class="brotherPic" src="images/NICHOLAS%20WILKOWSKI.jpg" alt="53952f29b8902f532c5f758c_NICHOLAS%20WILKOWSKI.jpg">
+                                                <div class="carousel-caption">Nicholas Wilkowski</div>
+                                            </div>
+                                        </div>
+                                        <!-- Controls -->
+                                        <a class="left carousel-control" id="custom-control" href="#seniorCarousel" role="button" data-slide="prev">
+                                            <span class="glyphicon glyphicon-chevron-left"></span>
+                                        </a>
+                                        <a class="right carousel-control" id="custom-control" href="#seniorCarousel" role="button" data-slide="next">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="item">
-                                    <img class ="brotherPic" src="images/DANIEL%20KLINE.jpg" alt="53952cc037206ded4c8be324_DANIEL%20KLINE.jpg">
-                                    <div class="carousel-caption">Daniel Kline</div>
-                                </div>
-                                <div class="item">
-                                    <img class ="brotherPic" src="images/ANDREW%20MINER.jpg" alt="53952e7838947f542cc4a47f_ANDREW%20MINER.jpg">
-                                    <div class="carousel-caption">Andrew Miner</div>
-                                </div>
-                                <div class="item">
-                                    <img class ="brotherPic" src="images/ROBERT%20VARGO.jpg" alt="53952ea937206ded4c8be361_ROBERT%20VARGO.jpg">
-                                    <div class="carousel-caption">Robert Vargo</div>
-                                </div>
+                                <!--end seniors-->
+                            </div>
                         </div>
-            <!-- Controls -->
-                            <a class="left carousel-control" id="custom-control" href="#juniorsCarousel" role="button" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left"></span>
-                            </a>
-                            <a class="right carousel-control" id="custom-control" href="#juniorsCarousel" role="button" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                            </a>
-
-
-
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="aboutUs" style="font-size:16px">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div id="frontpanel" class="panel">
+                            <ul class="nav nav-tabs" id="aboutUsTab" role="tablist">
+                                <li class="active"><a href="#sigmaNu">Sigma Nu</a></li>
+                                <li><a href="#ourChapter">Our Chapter</a></li>
+                                <li><a href="#philantropy">Philantropy</a></li>
+                                <li><a href="#campusDomination">Campus Domination</a></li>
+                                <li><a href="#hazing">Hazing</a></li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane fade aboutTabs" id="campusDomination" stly="text-align:left;">
+                                    <div class="panel-body" style="color:white;">
+                                        The men of Sigma Nu carry a strong presence on campus. Many brothers participate in varsity athletics. We have many greek intramural teams consistently making the playoffs and we have a strong prescence at the annual Greek Games. 4 brothers have seats on Rose-Hulman's Inter Fraternal Council. The brothers of Sigma Nu are notorious for always being seen together, whether they are walking to class, eating lunch, working out, or partying. Join us in our Campus Domination
+                                    </div>
+                                </div>
+                                <div class="tab-pane active fade in aboutTabs" id="sigmaNu" style="text-align:left;">
+                                    <div class="panel-body" style="color:white;">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <img src="./images/capsSmall.jpg" style="margin-bottom:1%" class="img-responsive img-thumbnail">
+                                                <br/>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <img src="./images/sigmaNuFlag.png" style=";margin-bottom:1%" class="img-responsive img-thumbnail">
+                                            </div>
+                                        </div>
+                                        Headquartered in Lexington, Virginia Sigma Nu Fraternity was founded in 1869 at Virginia Military Institute in Lexington. Sigma Nu currently has over 180 active chapters and colonies on college campuses throughout the United States and Canada, and has initiated over 219,000 members since its founding.
+                                    </div>
+                                </div>
+                                <div class="tab-pane aboutTabs fade" id="ourChapter">
+                                    <div class="panel-body" style="font-family: 'Droid Sans', sans-serif; font-weight:16px; color:white;">
+                                    	The Beta Upsilon chapter of the Sigma Nu fraternity has been a part of the Rose-Hulman community since 1896 and is the second oldest fraternity at the school. During our 112 years of existence, we have groomed nearly 2,000 men to be leaders of the world around us, and we have instilled in them the values necessary to complement a Rose-Hulman education in order to be successful in today's world.
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <img src="./images/groupPicture.jpg" style="margin-bottom:1%" class="img-responsive img-thumbnail">
+                                                <br/>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <img src="./images/walkot.jpg" style=";margin-bottom:1%" class="img-responsive img-thumbnail">
+                                            </div>
+                                        </div>
+                                        The brothers of Sigma Nu are a very close group of men. The men of Sigma Nu take pride in the values of honor, truth, and love that the fraternity holds dear and remains steadfast to the beliefs that tie all of the brothers together. The men of Sigma Nu take great confidence in the fact that each chapter across the nation is consistently loyal to these values, maintaining honor, truth, and love in everyday acts. Sigma Nu strives to achieve a global approach in the understanding of its values. The men of the Beta Upsilon chapter aim to accomplish this goal by taking multiple chapter trips to various locations across the nation, simply to gain a better understanding of what it really means to be a Sigma Nu. In the past two years alone, these men have traveled to Cincinatti, Myrtle Beach, Destin, New Orleans, Nashville, Chicago, and St. Louis, simply to travel the nation and build even greater bonds of friendship and brotherhood. Sigma Nu prides itself on the ability to take men of promise and not only bring out the best in them but to give them the knowledge, values and friendships that will improve their lives in every aspect.
+                                    </div>
+                                </div>
+                                <div class="aboutTabs tab-pane fade" id="philantropy">
+                                    <div class="panel-body" style="color:white;">
+                                        This tight brotherhood that Sigma Nu grows between members brings the brothers together to participate in events for the good of Rose-Hulman and the Terre Haute community. For any given event, all men of Sigma Nu are ready to lend a helping hand to enhance the surrounding community. It is for this reason that the men of Sigma Nu have taken part in-and held-many campus philanthropy events such as the annual Sigma Nu Volleybash, Polar Plunge, and Anchor Splash. Sigma Nu is also always willing to provide support of other fraternities and sororities across the area, holding intrafraternal relationships in very high regards. The values taught by the Sigma Nu fraternity advocate a community involvement that the brothers of the Beta Upsilon chapter take to heart and act on accordingly.
+                                        <div class="col-xs-12">
+                                            <br/>
+                                            <img src="./images/bikesForTikes.jpg" style="margin-bottom:1%" class="img-responsive img-thumbnail">
+                                            <br/>
+                                            <div class="col-xs-12">
+                                                <p style="text-align: center;">Sigma Nu at Bikes For Tikes</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane aboutTabs fade" id="hazing">
+                                    <div class="panel-body" style="color:white;">
+                                        Since Sigma Nu's inception back in 1869, we have and will continue to take a strong stance against hazing. Sigma Nu was founded in opposition to hazing after James Frank Hopkins saw ATO hazing their pledges. Our Anti-Hazing initiatives are designed to bring awareness and resources to chapters to help combat the dangerous practice of hazing.
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-xs-12" style="text-align:center;">
+                                                <img src="./images/anti_hazing.jpg" class="img-responsive img-thumbnail" style="">
+                                                <br/>
+                                            </div>
+                                        </div>
+                                        <br> Sigma Nu Fraternity defines hazing as: "... any action taken or situation created, intentionally, whether on or off fraternity premises, to produce mental or physical discomfort, embarrassment, harassment or ridicule. Such activities may include but are not limited to the following: paddling in any form; creation of excessive fatigue; physical and psychological shocks; quests, treasure hunts, scavenger hunts, road trips, lineups or any other such activities carried on outside or inside the confines of the chapter house; wearing, publicly, apparel which is conspicuous and not normally in good taste; engaging in public stunts and buffoonery; morally degrading or humiliating games and activities; late work sessions which interfere with scholastic activities; and any other activities which are not consistent with fraternal law, ritual or policy or the regulations and policies of the educational institution. The willingness of any individual to participate in any hazing activity does not excuse any hazing violation." If you believe that you have been hazed, or if you know somebody who may have been hazed, please call our toll-free Anti-Hazing Hotline at 1-800-NOT-HAZE or send an e-mail to anti-hazing@sigmanu.org. You do not have to give your name.
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
-</div>
-
-  <div class="tab-pane" id="seniors">
-
-
-          <div id="seniorCarousel" class="carousel slide inverted brothersCarousel" data-ride="carousel">
-                            <!-- Indicators -->
-                            <ol class="carousel-indicators indicate">
-                                <li data-target="#seniorCarousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#seniorCarousel" data-slide-to="1"></li>
-                                <li data-target="#seniorCarousel" data-slide-to="2"></li>
-    <li data-target="#seniorCarousel" data-slide-to="3"></li>
-        <li data-target="#seniorCarousel" data-slide-to="4"></li>
-            <li data-target="#seniorCarousel" data-slide-to="5"></li>
-                <li data-target="#seniorCarousel" data-slide-to="6"></li>
-                                                 <li data-target="#seniorCarousel" data-slide-to="7" class=""></li>
-                                <li data-target="#seniorCarousel" data-slide-to="8"></li>
-                                <li data-target="#seniorCarousel" data-slide-to="9"></li>
-    <li data-target="#seniorCarousel" data-slide-to="10"></li>
-        <li data-target="#seniorCarousel" data-slide-to="11"></li>
-            <li data-target="#seniorCarousel" data-slide-to="12"></li>
-                <li data-target="#seniorCarousel" data-slide-to="13"></li>
-                                                 <li data-target="#seniorCarousel" data-slide-to="14" class=""></li>
-                                <li data-target="#seniorCarousel" data-slide-to="15"></li>
-                                <li data-target="#seniorCarousel" data-slide-to="16"></li>
-                                <li data-target="#seniorCarousel" data-slide-to="17"></li>
-                                <li data-target="#seniorCarousel" data-slide-to="18"></li>
-
-                            </ol>
-
-
-
-
-
-
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <img class ="brotherPic" src="images/DOUGLAS%20BICKEL.jpg" alt="539530da37206ded4c8be3b4_DOUGLAS%20BICKEL.jpg">
-                                    <div class="carousel-caption">Douglas Bickel</div>
-                                </div>
-                                <div class="item">
-                                    <img class ="brotherPic" src="images/PAUL%20BLIUDZUIS.jpg" alt="5395313bf45a59ec4c65504e_PAUL%20BLIUDZUIS.jpg">
-                                    <div class="carousel-caption">Paul Bliudzius</div>
-                                </div>
-                                <div class="item">
-                                    <img class ="brotherPic" src="images/JOHN%20COCHRAN.jpg" alt="53953172f45a59ec4c655050_JOHN%20COCHRAN.jpg">
-                                    <div class="carousel-caption">John Michael Cochran</div>
-                                </div>
-                                <div class="item">
-                                    <img class ="brotherPic" src="images/THOMAS%20DEMOS.jpg" alt="539531b6f45a59ec4c655052_THOMAS%20DEMOS.jpg">
-                                    <div class="carousel-caption">Thomas Demos</div>
-                                </div>
-                                <div class="item">
-                                    <img class ="brotherPic" src="images/CHAZ%20EVANS.jpg" alt="539531eff45a59ec4c655055_CHAZ%20EVANS.jpg">
-                                    <div class="carousel-caption">Chaz Evans</div>
-                                </div>
-                                <div class="item">
-                                    <img class ="brotherPic" src="images/PATRICK%20FONDA.jpg" alt="5395322a38947f542cc4a4b0_PATRICK%20FONDA.jpg">
-                                    <div class="carousel-caption">Patrick Fonda</div>
-                                </div>
-                                <div class="item">
-                                    <img class ="brotherPic" src="images/TAYLOR%20FORTMEYER.jpg" alt="539532f0b8902f532c5f75ae_TAYLOR%20FORTMEYER.jpg">
-                                    <div class="carousel-caption">Taylor Fortmeyer&nbsp;</div>
-                                </div>
-                                <div class="item">
-                                    <img class ="brotherPic" src="images/LAWRENCE%20GOEDRICH.jpg" alt="5395333b37206ded4c8be3c3_LAWRENCE%20GOEDRICH.jpg">
-                                    <div class="carousel-caption">Lawrence Goedrich</div>
-                                </div>
-                                <div class="item">
-                                    <img class ="brotherPic" src="images/BRIAN%20GUESS.jpg" alt="5395337737206ded4c8be3c9_BRIAN%20GUESS.jpg">
-                                    <div class="carousel-caption">Brian Guess</div>
-                                </div>
-                                <div class="item">
-                                    <img class ="brotherPic" src="images/MACKENZIE%20MAYBERRY.jpg" alt="539533b737206ded4c8be3cd_MACKENZIE%20MAYBERRY.jpg">
-                                    <div class="carousel-caption">Mackenzie Mayberry</div>
-                                </div>
-                                <div class="item">
-                                    <img class ="brotherPic" src="images/JOSEPH%20McENTIRE.jpg" alt="5395342eb8902f532c5f75b5_JOSEPH%20McENTIRE.jpg">
-                                    <div class="carousel-caption">Joseph&nbsp;McEntire</div>
-                                </div>
-                                <div class="item">
-                                    <img class ="brotherPic" src="images/JOSEPH%20MONHAUT.jpg" alt="5395346938947f542cc4a4c0_JOSEPH%20MONHAUT.jpg">
-                                    <div class="carousel-caption">Joseph Monhaut</div>
-                                </div>
-                                <div class="item">
-                                    <img class ="brotherPic" src="images/JORDAN%20PATTERSON.jpg" alt="539534aff45a59ec4c655064_JORDAN%20PATTERSON.jpg">
-                                    <div class="carousel-caption">Jordan Patterson</div>
-                                </div>
-                                <div class="item">
-                                    <img class ="brotherPic" src="images/MATTHEW%20ROCCO.jpg" alt="539534ca38947f542cc4a4c4_MATTHEW%20ROCCO.jpg">
-                                    <div class="carousel-caption">Matthew Rocco</div>
-                                </div>
-                                <div class="item">
-                                    <img class ="brotherPic" src="images/JOSHUA%20SCALA.jpg" alt="539534f9f45a59ec4c655069_JOSHUA%20SCALA.jpg">
-                                    <div class="carousel-caption">Joshua Scala</div>
-                                </div>
-                                <div class="item">
-                                    <img class ="brotherPic" src="images/JULIAN%20SFEIR.jpg" alt="5395352737206ded4c8be3f5_JULIAN%20SFEIR.jpg">
-                                    <div class="carousel-caption">Julian Sfeir</div>
-                                </div>
-                                <div class="item">
-                                    <img class ="brotherPic" src="images/ATUL%20SHASTRY.jpg" alt="5395354837206ded4c8be3f9_ATUL%20SHASTRY.jpg">
-                                    <div class="carousel-caption">Atul Shastry</div>
-                                </div>
-                                <div class="item">
-                                    <img class ="brotherPic" src="images/D_KHARI-JAMES%20TURNER-SMITH.jpg" alt="5395358c37206ded4c8be41d_D%27KHARI-JAMES%20TURNER-SMITH.jpg">
-                                    <div class="carousel-caption">D'khari-James Turner-Smith</div>
-                                </div>
-                                <div class="item">
-                                    <img class ="brotherPic" src="images/NICHOLAS%20WILKOWSKI.jpg" alt="53952f29b8902f532c5f758c_NICHOLAS%20WILKOWSKI.jpg">
-                                    <div class="carousel-caption">Nicholas Wilkowski</div>
-                                </div>
-                      </div>
-           <!-- Controls -->
-                            <a class="left carousel-control" id="custom-control" href="#seniorCarousel" role="button" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left"></span>
-                            </a>
-                            <a class="right carousel-control" id="custom-control" href="#seniorCarousel" role="button" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                            </a>
-
-
-                          </div>
-        </div><!--end seniors-->
-
-</div>
-</div>
-</div>
-</div>
-</div>
-        <div class="tab-pane fade" id="aboutUs" style="font-size:16px">
-          <div class="row">
-            <div class="col-xs-12">
-
-                        <div id = "frontpanel"class="panel">
-                          <ul class="nav nav-tabs" id = "aboutUsTab"role="tablist">
-  <li class="active"><a href="#sigmaNu">Sigma Nu</a></li>
-  <li><a href="#ourChapter">Our Chapter</a></li>
-  <li><a href="#philantropy">Philantropy</a></li>
-  <li><a href="#campusDomination">Campus Domination</a></li>
-  <li><a href="#hazing">Hazing</a></li>
-</ul>
-
-
-<div class="tab-content" >
-
-
-  <div class="tab-pane fade aboutTabs" id ="campusDomination" stly="text-align:left;">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="alumni"> Under Construction</div>
+            <div class="tab-pane fade" id="contactUs">
+                <div class="row" style="margin-top:2%">
+                    <div class="col-mid-7">
+                        <iframe style="margin-left:20%;" width="600" height="450" frameborder="0" style="border:0;" src="https://www.google.com/maps/embed/v1/place?q=Sigma%20Nu%20Fraternity%2C%20Wabash%20Avenue%2C%20Terre%20Haute%2C%20IN%2C%20United%20States&key=AIzaSyDapkQPi1P3xdA6hWw4PTTuC9MX8ffYoWQ&zoom=20&maptype=satellite"></iframe>
+                    </div>
+                </div>
+                <div class="col-mid-2" ;>
+                    <div id="frontpanel" class="panel">
                         <div class="panel-body" style="color:white;">
-                          The men of Sigma Nu carry a strong presence on campus. Many brothers participate in varsity athletics. We have many greek intramural teams consistently making the playoffs and we have a strong prescence at the annual Greek Games. 4 brothers have seats on Rose-Hulman's Inter Fraternal Council. The brothers of Sigma Nu are notorious for always being seen together, whether they are walking to class, eating lunch, working out, or partying.
-                          Join us in our Campus Domination
-
-
-
+                            Address:
+                            <br> Sigma Nu Fraternity
+                            <br> Sigma Nu Rose-Hulman Institute of Technology
+                            <br> 5500 Wabash Ave
+                            <br> IN 47803
+                            <br>
+                            <br> Webmaster: Matt Rocco
+                            <br/> Contact webmaster <a href="http://mattroc.co">through his website </a> or by email at roccoma(AT)rose-hulman(DOT)edu
                         </div>
-  </div>
-  <div class="tab-pane active fade in aboutTabs" id="sigmaNu" style="text-align:left;">
-                        <div class="panel-body" style="color:white;">
-                          <div class="row">
-                            <div class="col-xs-6">
-                          <img src = "./images/capsSmall.jpg" style="margin-bottom:1%" class ="img-responsive img-thumbnail">
-                          <br/>
-                        </div>
-                           <div class="col-xs-6">
-                         <img src = "./images/sigmaNuFlag.png" style=";margin-bottom:1%" class ="img-responsive img-thumbnail">
-                        </div>
-
-                      </div>
-Headquartered in Lexington, Virginia Sigma Nu Fraternity was founded in 1869 at Virginia Military Institute in Lexington. Sigma Nu currently has over 180 active chapters and colonies on college campuses throughout the United States and Canada, and has initiated over 219,000 members since its founding.
-</div></div>
-
-  <div class="tab-pane aboutTabs fade" id="ourChapter"> <div class="panel-body" style="font-family: 'Droid Sans', sans-serif; font-weight:16px;
-color:white;">The Beta Upsilon chapter of the Sigma Nu fraternity has been a part of the Rose-Hulman community since 1896 and is the second oldest fraternity at the school. During our 112 years of existence, we have groomed nearly 2,000 men to be leaders of the world around us, and we have instilled in them the values necessary to complement a Rose-Hulman education in order to be successful in today's world.
-                     <br>
-        <div class="row">
-                            <div class="col-xs-6">
-                          <img src = "./images/groupPicture.jpg" style="margin-bottom:1%" class ="img-responsive img-thumbnail">
-                          <br/>
-                        </div>
-                           <div class="col-xs-6">
-                         <img src = "./images/walkot.jpg" style=";margin-bottom:1%" class ="img-responsive img-thumbnail">
-                        </div>
-
-                      </div>
-
-The brothers of Sigma Nu are a very close group of men. The men of Sigma Nu take pride in the values of honor, truth, and love that the fraternity holds dear and remains steadfast to the beliefs that tie all of the brothers together. The men of Sigma Nu take great confidence in the fact that each chapter across the nation is consistently loyal to these values, maintaining honor, truth, and love in everyday acts.
-
-  Sigma Nu strives to achieve a global approach in the understanding of its values. The men of the Beta Upsilon chapter aim to accomplish this goal by taking multiple chapter trips to various locations across the nation, simply to gain a better understanding of what it really means to be a Sigma Nu. In the past two years alone, these men have traveled to Cincinatti, Myrtle Beach, Destin, New Orleans, Nashville, Chicago, and St. Louis, simply to travel the nation and build even greater bonds of friendship and brotherhood. Sigma Nu prides itself on the ability to take men of promise and not only bring out the best in them but to give them the knowledge, values and friendships that will improve their lives in every aspect. </div></div>
-  <div class="aboutTabs tab-pane fade" id="philantropy"> <div class="panel-body" style="color:white;">
-             This tight brotherhood that Sigma Nu grows between members brings the brothers together to participate in events for the good of Rose-Hulman and the Terre Haute community. For any given event, all men of Sigma Nu are ready to lend a helping hand to enhance the surrounding community. It is for this reason that the men of Sigma Nu have taken part in-and held-many campus philanthropy events such as the annual Sigma Nu Volleybash, Polar Plunge, and Anchor Splash. Sigma Nu is also always willing to provide support of other fraternities and sororities across the area, holding intrafraternal relationships in very high regards. The values taught by the Sigma Nu fraternity advocate a community involvement that the brothers of the Beta Upsilon chapter take to heart and act on accordingly.
-
-                   <div class="col-xs-12">
-                    <br/>
-                          <img src = "./images/bikesForTikes.jpg" style="margin-bottom:1%" class ="img-responsive img-thumbnail">
-                          <br/>
-                          <div class = "col-xs-12">
-                       <p style="text-align: center;">Sigma Nu at Bikes For Tikes</p>
-                     </div>
-                        </div>
-
-                      </div></div>
-  <div class="tab-pane aboutTabs fade" id="hazing"> <div class="panel-body" style="color:white;">
- Since Sigma Nu's inception back in 1869, we have and will continue to take a strong stance against hazing. Sigma Nu was founded in opposition to hazing after James Frank Hopkins saw ATO hazing their pledges. Our Anti-Hazing initiatives are designed to bring awareness and resources to chapters to help combat the dangerous practice of hazing.
- <br>
-    <div class="row">
-                            <div class="col-xs-12" style="text-align:center;">
-                          <img src = "./images/anti_hazing.jpg" class ="img-responsive img-thumbnail" style="">
-                          <br/>
-                        </div>
-                      </div>
-                        <br>
-Sigma Nu Fraternity defines hazing as:
-
-"... any action taken or situation created, intentionally, whether on or off fraternity premises, to produce mental or physical discomfort, embarrassment, harassment or ridicule. Such activities may include but are not limited to the following: paddling in any form; creation of excessive fatigue; physical and psychological shocks; quests, treasure hunts, scavenger hunts, road trips, lineups or any other such activities carried on outside or inside the confines of the chapter house; wearing, publicly, apparel which is conspicuous and not normally in good taste; engaging in public stunts and buffoonery; morally degrading or humiliating games and activities; late work sessions which interfere with scholastic activities; and any other activities which are not consistent with fraternal law, ritual or policy or the regulations and policies of the educational institution.
-
-The willingness of any individual to participate in any hazing activity does not excuse any hazing violation."
-
-If you believe that you have been hazed, or if you know somebody who may have been hazed, please call our toll-free Anti-Hazing Hotline at 1-800-NOT-HAZE or send an e-mail to anti-hazing@sigmanu.org. You do not have to give your name. </div></div>
-</div>
-                  </div>
-
-                  <div>
-
-                </div>
-                </div>
-            </div>
-                </div>
-        <div class="tab-pane fade" id="alumni"> Under Construction</div>
-        <div class="tab-pane fade" id="contactUs">
-            <div class="row" style="margin-top:2%">
-                <div class="col-mid-7">
-                    <iframe style="margin-left:20%;"width="600" height="450" frameborder="0" style="border:0;" src="https://www.google.com/maps/embed/v1/place?q=Sigma%20Nu%20Fraternity%2C%20Wabash%20Avenue%2C%20Terre%20Haute%2C%20IN%2C%20United%20States&key=AIzaSyDapkQPi1P3xdA6hWw4PTTuC9MX8ffYoWQ&zoom=20&maptype=satellite"></iframe>
-                </div>
-                          </div>
-
-                <div class="col-mid-2";>
-                <div id = "frontpanel"class="panel">
-                    <div class="panel-body" style="color:white;">
-                    Address: <br>
-                    Sigma Nu Fraternity<br>
-                    Sigma Nu Rose-Hulman Institute of Technology<br>
-                    5500 Wabash Ave<br>
-                    IN 47803<br>
-                    <br>
-                     Webmaster: Matt Rocco <br/>
-                     Contact webmaster <a href="http://mattroc.co">through his website </a>
-                     or by email at roccoma(AT)rose-hulman(DOT)edu
                     </div>
-                  </div>
+                </div>
             </div>
         </div>
-      </div>
-<div class="modal fade" id="db" style ="width:100%" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog"style ="width:80%">
-    <div class="modal-content"style ="width:80%">
-      <div class="modal-header"style ="width:80%">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"></span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title" id="myModalLabel">If you pull the string, you might find a secret</h4>
-      </div>
-      <div class="modal-body">
-      <img id="dynamic" src ="./images/download.png"/>;
-      </div>
-    </div>
-
-    </div>
-  </div>
-
-
-<!-- Start of StatCounter Code for Default Guide -->
-<script type="text/javascript">
-var sc_project=9987504;
-var sc_invisible=1;
-var sc_security="5c1ded5c";
-var scJsHost = (("https:" == document.location.protocol) ?
-"https://secure." : "http://www.");
-document.write("<sc"+"ript type='text/javascript' src='" +
-scJsHost+
-"statcounter.com/counter/counter.js'></"+"script>");
-</script>
-<noscript><div class="statcounter"><a title="hit counter"
-href="http://statcounter.com/" target="_blank"><img
-class="statcounter"
-src="http://c.statcounter.com/9987504/0/5c1ded5c/1/"
-alt="hit counter"></a></div></noscript>
-<!-- End of StatCounter Code for Default Guide -->
-
+        <!-- Start of StatCounter Code for Default Guide -->
+        <script type="text/javascript">
+	        var sc_project = 9987504;
+	        var sc_invisible = 1;
+	        var sc_security = "5c1ded5c";
+	        var scJsHost = (("https:" == document.location.protocol) ? "https://secure." : "http://www.");
+	     	document.write("<sc" + "ript type='text/javascript' src='" + scJsHost + "statcounter.com/counter/counter.js'></" + "script>");
+        </script>
+        <noscript>
+            <div class="statcounter">
+                <a title="hit counter" href="http://statcounter.com/" target="_blank"><img class="statcounter" src="http://c.statcounter.com/9987504/0/5c1ded5c/1/" alt="hit counter"></a>
+            </div>
+        </noscript>
+        <!-- End of StatCounter Code for Default Guide -->
 </body>
-
 
 </html>
