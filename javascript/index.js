@@ -135,7 +135,7 @@ $(document).ready(function() {
             }, {
                 title: 'Homecoming - No Contact',
                 start: '2016-09-30',
-                end: '2016-10-03',
+                end: '2016-10-02',
                 custom: "IFC dictates that we cannot speak to you during this period.",
                 className: "event",
                 backgroundColor: '#800000'
