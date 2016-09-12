@@ -46,106 +46,100 @@ $(document).ready(function() {
             right: "",
         },
 
-        defaultDate: '2014-09-01',
+        defaultDate: '2016-09-01',
         selectable: false,
         selectHelper: false,
 
-        events: [{
-                title: 'Greek Fair',
-                start: '2014-09-04',
-                className: "event",
-                custom: "Come down to the Greek fair and see our booth!",
-            }, {
-                title: 'No Contact',
-                start: '2014-09-05',
-                end: '2014-09-15',
-                className: "event",
-                custom: "IFC dictates that we cannot speak to you during this period",
-                backgroundColor: '#800000'
-            }, {
+        events: [
+            {
                 title: 'Dorm Storming',
-                custom: "Fraternities storm the dorms to inform freshman of rush activities. Be sure to leave your door open!",
-                start: '2014-09-15T19:00:00',
-                end: '2014-09-10T22:00:00',
-                className: "event"
+                start: '2016-09-12T19:00:00',
+                end: '2016-09-12T22:00:00',
+                className: 'event',
+                custom: "Fraternities storm the dorms to inform freshman of rush activities. Be sure to leave your door open!"
             }, {
                 title: 'Informals',
-                start: '2014-09-16',
-                custom: "Come by our house and get a tour during informals!",
-                className: "event"
+                start: '2016-09-13T17:00:00',
+                end: '2016-09-13T22:00:00',
+                className: "event",
+                custom: "Come by our house and get a tour during informals!"
             }, {
                 title: 'Informals',
-                start: '2014-09-17',
-                custom: "Come by our house and get a tour during informals!",
-                className: "event"
+                start: '2016-09-14T17:00:00',
+                end: '2016-09-14T22:00:00',
+                className: "event",
+                custom: "Come by our house and get a tour during informals!"
             }, {
-                title: 'Speed Lawn BBQ with smoked meat',
-                start: '2014-09-18',
-                custom: "Come down to speed lawn for some BBQ smoked by none other than Sigma Nu Thomas Demos.",
-                className: "event"
+                title: 'First Formal Signups Open',
+                start: '2016-09-15',
+                className: "event",
+                custom: "First Formals. Be sure to sign up on banner web.",
             }, {
-                title: 'Speed Lawn BBQ and Smoothies',
-                start: '2014-09-19',
-                custom: "Come down to speed lawn for some BBQ and delicious smoothies.",
+                title: 'Speed Lawn Cookout',
+                start: '2016-09-16T18:00:00',
+                end: '2016-09-16T20:00:00',
+                custom: "Come down to speed lawn for some free food and to meet us.",
                 className: "event"
             }, {
                 title: 'Jello Wrestling with Pig Roast',
-                start: '2014-09-20',
+                start: '2016-09-17T19:30:00',
+                end: '2016-09-17T22:00:00',
                 custom: "Join the Brothers of Sigma Nu for our annual Jello wrestling event.",
                 className: "event"
             }, {
-                title: 'Hangover Recovery at Cackleberries',
-                start: '2014-09-21',
-                custom: "Nothing cures a hangover like a skillet from Cackleberries.",
+                title: 'Monday Night Football / Euchre Tournament',
+                start: '2016-09-19T20:00:00',
+                end: '2016-09-19T22:00:00',
+                custom: "Join us in our theater room at the house for some football, food, and a euchre tournament.",
                 className: "event"
             }, {
-                title: 'Monday Night Football and Giant Subs',
-                start: '2014-09-22',
-                custom: "Join us in our theater room at the house for some football and food.",
+                title: 'South Park Night',
+                start: '2016-09-21T21:30:00',
+                end: '2016-09-21T23:00:00',
+                custom: "Watch this weeks south park in our theater room with some free food. Good time to hang out with us.",
                 className: "event"
             }, {
-                title: 'Bowling and Steak and Shake',
-                start: '2014-09-23',
-                custom: "Join us in our bowling and steak and shake following.",
-                className: "event"
-            }, {
-                title: 'South Park and Papa Johns',
-                start: '2014-09-24',
-                custom: "Watch this weeks south park in our theater room and eat some pizza.",
-
-                className: "event"
-            }, {
-                title: 'Hookah Night and Jimmy Johns',
-                start: '2014-09-25',
-                custom: "Smoke hookah (18+ only) and devour some subs in our hookah bar.",
+                title: 'Bonfire',
+                start: '2016-09-22T19:00:00',
+                end: '2016-09-22T21:00:00',
+                custom: "Come on out to our house and hang out at our bonfire fit.",
                 className: "event"
             }, {
                 title: 'First Formals',
-                start: '2014-09-26',
+                start: '2016-09-23',
                 custom: "First Formals. Be sure to sign up on banner web.",
                 className: "event"
             }, {
-                title: 'Sky Zone and Oy Vey',
-                start: '2014-09-27',
-                custom: "Come to the Sky Zone in Indianapolis.",
-                className: "event"
-            }, {
-                title: 'First Formals Round 2',
-                start: '2014-09-28',
+                title: 'First Formals',
+                start: '2016-09-25',
                 custom: "First Formals. Be sure to sign up on banner web.",
                 className: "event"
             }, {
                 title: 'Monday Night Football',
-                start: '2014-09-29',
-                custom: "Join us in our theater room at the house for some football and food.",
+                start: '2016-09-26T20:00:00',
+                end: '2016-09-26T22:00:00',
+                custom: "Join us in our theater room at the house for some football and more free food.",
                 className: "event"
             }, {
-                title: 'Pick Up Basketball game',
-                custom: "Pick up basketball game behind speed. Dinner Following",
-                start: '2014-09-30',
+                title: 'South Park Night',
+                start: '2016-09-28T21:30:00',
+                end: '2016-09-28T23:00:00',
+                custom: "Watch this weeks south park in our theater room with some free food. Good time to hang out with us.",
                 className: "event"
+            }, {
+                title: 'Buffalo Wild Wings',
+                start: '2016-09-29T19:30:00',
+                end: '2016-09-29T21:00:00',
+                custom: 'Keep your doors open and we will come find you to go get some free B-Dubs.',
+                className: 'event'
+            }, {
+                title: 'Homecoming - No Contact',
+                start: '2016-09-30',
+                end: '2016-10-03',
+                custom: "IFC dictates that we cannot speak to you during this period.",
+                className: "event",
+                backgroundColor: '#800000'
             }
-
         ]
     });
     $('#calendar2').fullCalendar({
@@ -162,120 +156,119 @@ $(document).ready(function() {
                 previous.css('border-color', '#000000');
             }
             previous = $(this);
-
         },
         defaultView: 'month',
-        defaultDate: '2014-10-01',
+        defaultDate: '2016-10-01',
         selectable: false,
         selectHelper: false,
 
-        events: [{
-                title: 'South Park and Papa Johns',
-                start: '2014-10-01',
-                custom: "Watch this weeks south park in our theater room and eat some pizza.",
-                className: "event"
-            }, {
-                title: 'Hookah Night and Chavas',
-                start: '2014-09-02',
-                custom: 'Come smoke hookah (18+) in our hookah lounge and eat some big burritos',
-                className: "event",
-            }, {
+        events: [
+            {
                 title: 'Homecoming - No Contact',
-                start: '2014-10-03',
-                end: '2014-10-05',
-                custom: "IFC dictates that we cannot speak to you during this period",
-
+                start: '2016-09-30',
+                end: '2016-10-03',
+                custom: "IFC dictates that we cannot speak to you during this period.",
                 className: "event",
                 backgroundColor: '#800000'
-
-            }, {
-                title: 'Monday Night Football and Papa Johns',
-                custom: "Join us in our theater room at the house for some football and food.",
-                start: '2014-19-06',
-                className: "event"
-            }, {
-                title: 'Pick Up Basketball and Dinner',
-                start: '2014-10-07',
-                custom: "Pick up basketball game behind speed. Dinner Following",
-                className: "event"
-            }, {
-                title: 'Shooting Range and Wise Pies',
-                start: '2014-10-08',
-                custom: "Shoot some guns and eat some pizza.",
-
-                className: "event"
-            }, {
-                title: 'Fall Break - No contact',
-                start: '2014-10-09',
-                end: '2014-10-12',
-                custom: "IFC dictates that we cannot speak to you during this period",
-                className: "event",
-                backgroundColor: '#800000'
-
-            }, {
-                title: 'Monday Night Football and Chick-Fil-a',
-                custom: "Join us in our theater room at the house for some football and food.",
-                start: '2014-10-13',
-                className: "event"
-            }, {
-                title: 'Pick Up BasketBall and Dinner',
-                start: '2014-10-14',
-                custom: "Pick up basketball game behind speed. Dinner Following",
-                className: "event"
-            }, {
-                title: 'South Park and Papa Johns',
-                start: '2014-10-15',
-                custom: "Watch this weeks south park in our theater room and eat some pizza.",
-                className: "event"
-            }, {
-                title: 'Hookah Night and Jimmy Johns',
-                start: '2014-10-16',
-                custom: "Smoke hookah (18+ only) and devour some subs in our hookah bar.",
-                className: "event"
-            }, {
-                title: 'Hockey Night',
-                start: '2014-10-17',
-                custom: 'Hockey game in Indianapolis',
-                className: "event"
             }, {
                 title: 'Monday Night Football',
-                custom: "Join us in our theater room at the house for some football and food.",
-                start: '2014-10-20',
+                start: '2016-10-03T20:00:00',
+                end: '2016-10-03T22:00:00',
+                custom: "Join us in our theater room at the house for some football and more free food.",
                 className: "event"
             }, {
-                title: 'Pick Up Basketball',
-                start: '2014-10-21',
-                custom: "Pick up basketball game behind speed. Dinner Following",
+                title: 'Speed Lawn Movie Night',
+                start: '2016-10-04T20:00:00',
+                end: '2016-10-04T23:00:00',
+                custom: 'Join us as we watch a couple movies on Speed Lawn with free popcorn!',
+                className: 'event'
+            }, {
+                title: 'Bubble Soccer',
+                start: '2016-10-05T17:00:00',
+                end: '2016-10-05T19:00:00',
+                custom: 'Join us at Bonfire Field to compete against each other in Bubble Soccer!',
+                className: 'event'
+            }, {
+                title: 'Fall Break - No Contact',
+                start: '2016-10-06',
+                end: '2016-10-10',
+                custom: "IFC dictates that we cannot speak to you during this period",
+                className: "event",
+                backgroundColor: '#800000'
+
+            }, {
+                title: 'Monday Night Football',
+                start: '2016-10-10T20:00:00',
+                end: '2016-10-10T22:00:00',
+                custom: "Join us in our theater room at the house for some football and more free food.",
                 className: "event"
             }, {
-                title: 'South Park and Chick-Fil-A',
-                custom: "Watch this weeks south park in our theater room and eat some Chick-Fil-A.",
-                start: '2014-10-22',
+                title: 'Second Formal Invites Open',
+                start: '2016-10-11',
+                custom: 'Check banner web and accept/deny any invites you have.',
+                className: 'event'
+            }, {
+                title: 'South Park Night',
+                start: '2016-10-12T21:30:00',
+                end: '2016-10-12T23:00:00',
+                custom: "Watch this weeks south park in our theater room with some free food. Good time to hang out with us.",
                 className: "event"
             }, {
-                title: 'Mogers Dinner',
-                custom: 'Invitation dinner to Mogers',
-                start: '2014-10-23',
+                title: 'Bonfire',
+                start: '2016-09-22T19:00:00',
+                end: '2016-09-22T21:00:00',
+                custom: "Come on out to our house and hang out at our bonfire fit.",
+                className: "event"
+            }, {
+                title: 'Comedy Night',
+                start: '2016-10-15T17:00:00',
+                end: '2016-10-15T23:00:00',
+                custom: 'We will invite you to come with us to downtown Indianapolis for dinner at MacNiven\'s and comedy with Piff the Magic Dragon',
+                className: 'event'
+            }, {
+                title: 'Monday Night Football',
+                start: '2016-10-17T20:00:00',
+                end: '2016-10-17T22:00:00',
+                custom: "Join us in our theater room at the house for some football and more free food.",
+                className: "event"
+            }, {
+                title: 'Speed Lawn Movie Night',
+                start: '2016-10-18T20:00:00',
+                end: '2016-10-18T23:00:00',
+                custom: 'Join us as we watch a couple movies on Speed Lawn with free popcorn!',
+                className: 'event'
+            }, {
+                title: 'South Park Night',
+                start: '2016-10-19T21:30:00',
+                end: '2016-10-19T23:00:00',
+                custom: "Watch this weeks south park in our theater room with some free food. Good time to hang out with us.",
                 className: "event"
             }, {
                 title: 'Second Formals',
-                custom: 'Second Formals-- invite only',
-                start: '2014-10-24',
+                start: '2016-10-21',
+                custom: "Second Formals. Be sure to check banner web for invitations.",
                 className: "event"
             }, {
                 title: 'PaintBall',
-                start: '2014-10-25',
+                start: '2016-10-22T10:00:00',
+                end: '2016-10-22T14:00:00',
                 custom: 'Come play paint ball with us in Indianapolis. Dinner following.',
                 className: "event"
             }, {
                 title: 'Second Formals',
-                start: '2014-10-26',
-                custom: 'Second Formals-- invite only',
+                start: '2016-10-23',
+                custom: 'Second Formals. Be sure to check banner web for invitations.',
                 className: "event"
             }, {
+                title: 'Closed Rush',
+                start: '2016-10-24',
+                className: 'event',
+                backgroundColor: '#800000',
+                custom: 'Day after second formals is a closed rush.'
+            }, {
                 title: 'Bid Tuesday',
-                custom: 'You will have to wait to find out',
-                start: '2014-10-28',
+                custom: 'You will have to wait to find out.',
+                start: '2016-10-25',
                 className: "event"
             }
         ]
